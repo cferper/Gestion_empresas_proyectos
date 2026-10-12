@@ -1,0 +1,755 @@
+{
+  "id": "gep-t5",
+  "number": 5,
+  "title": "Gestión de marketing",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "marketing": "Marketing y valor",
+    "plan": "Plan e investigación",
+    "mezcla": "Las cuatro P",
+    "estrategia": "Marketing estratégico",
+    "servicio": "Comunicación y posventa"
+  },
+  "cards": [
+    {
+      "id": "gep-t5-definicion",
+      "concepts": [
+        "marketing"
+      ],
+      "question": "¿Por qué marketing es más que publicidad?",
+      "answer": "Orienta intercambios y decisiones de la organización hacia satisfacer necesidades del cliente de forma compatible con sus objetivos.",
+      "explanation": "La publicidad es sólo una herramienta de comunicación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 111,
+          "printedPage": "106",
+          "section": "Marketing y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-valor",
+      "concepts": [
+        "marketing"
+      ],
+      "question": "¿Cómo se relacionan valor percibido y satisfacción?",
+      "answer": "El valor contrasta beneficios con costes o sacrificios; la satisfacción compara experiencia con expectativas.",
+      "explanation": "El precio monetario no representa todos los sacrificios.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 112,
+          "printedPage": "107",
+          "section": "Marketing y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-demanda",
+      "concepts": [
+        "marketing"
+      ],
+      "question": "¿Gestionar demanda siempre significa aumentarla?",
+      "answer": "No: puede requerir aumentarla, reducirla o regular su distribución temporal.",
+      "explanation": "La capacidad y los objetivos condicionan la actuación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 112,
+          "printedPage": "107",
+          "section": "Marketing y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-plan",
+      "concepts": [
+        "plan"
+      ],
+      "question": "¿Qué componentes conecta un plan de marketing?",
+      "answer": "Situación, objetivos, estrategia, acciones, presupuesto, calendario, responsables y control.",
+      "explanation": "Una lista de acciones sin objetivos ni seguimiento no es un plan completo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 113,
+          "printedPage": "108",
+          "section": "Plan e investigación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-investigacion",
+      "concepts": [
+        "plan"
+      ],
+      "question": "Distingue preguntar, experimentar y observar registros en investigación comercial.",
+      "answer": "Encuestas recogen lo que se dice; pruebas de mercado observan lo que se hace en una situación; registros históricos muestran lo que se hizo.",
+      "explanation": "Intención declarada y compra efectiva pueden diferir.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 115,
+          "printedPage": "110",
+          "section": "Plan e investigación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-cuatro-p",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Cuáles son las cuatro P del marketing mix?",
+      "answer": "Producto, precio, distribución y promoción o comunicación.",
+      "explanation": "Deben coordinarse entre sí y con el mercado objetivo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 116,
+          "printedPage": "111",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-producto",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Un producto tiene que ser tangible?",
+      "answer": "No: también puede ser un servicio u oferta intangible.",
+      "explanation": "La clasificación comercial distingue conveniencia, comparación y especialidad.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 117,
+          "printedPage": "112",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-ciclo",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Qué etapas tiene el ciclo de vida del producto?",
+      "answer": "Introducción, crecimiento, madurez y declive.",
+      "explanation": "Es un esquema para analizar decisiones, no un calendario fijo de todos los productos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 117,
+          "printedPage": "112",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-precio",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Qué tres referencias orientan la fijación del precio?",
+      "answer": "Costes, competencia y demanda o valor percibido.",
+      "explanation": "Elegir sólo una referencia puede ignorar restricciones importantes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 118,
+          "printedPage": "113",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-lanzamiento",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "Distingue penetración de descremación en precios de lanzamiento.",
+      "answer": "Penetración busca entrada con precio relativamente bajo; descremación inicia con precio alto para captar segmentos dispuestos a pagar más.",
+      "explanation": "Su conveniencia depende de demanda, competencia y costes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 118,
+          "printedPage": "113",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-distribucion",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Qué aporta la distribución además de transportar?",
+      "answer": "Almacenamiento, información, financiación y organización de intercambios; los intermediarios pueden reducir contactos necesarios.",
+      "explanation": "Mayorista y minorista ocupan posiciones distintas en el canal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 119,
+          "printedPage": "114",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-promocion",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "Distingue publicidad, promoción de ventas y venta personal.",
+      "answer": "Publicidad: comunicación pagada e impersonal; promoción: incentivos normalmente temporales; venta personal: interacción directa con el comprador.",
+      "explanation": "Publicity se refiere a difusión no pagada en este esquema.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 119,
+          "printedPage": "114",
+          "section": "Comunicación y posventa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-posventa",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Qué aporta gestionar reclamaciones al marketing?",
+      "answer": "Permite recuperar confianza, resolver problemas y obtener información para mejorar.",
+      "explanation": "Escucha, empatía, evidencia, respuesta y seguimiento son parte del proceso.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 120,
+          "printedPage": "115",
+          "section": "Comunicación y posventa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-dafo",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Clasifica fortalezas, debilidades, oportunidades y amenazas.",
+      "answer": "Fortalezas y debilidades son internas; oportunidades y amenazas proceden del entorno.",
+      "explanation": "Una misma situación se clasifica desde la perspectiva de la empresa analizada.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 122,
+          "printedPage": "117",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-segmentacion",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "¿Qué convierte un segmento en un objetivo utilizable?",
+      "answer": "Información para conocerlo, acceso, tamaño suficiente, diferenciación y posibilidad de defender la posición.",
+      "explanation": "Agrupar clientes no basta si no se puede actuar sobre el grupo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 123,
+          "printedPage": "118",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-niveles",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Distingue marketing de masas, segmentos, nichos e individual.",
+      "answer": "Aumentan el detalle de adaptación desde una oferta general hasta una oferta para una persona o cliente concreto.",
+      "explanation": "Nicho es un grupo reducido y definido, no sinónimo de toda segmentación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 123,
+          "printedPage": "118",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-posicionamiento",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "¿Qué significa posicionamiento?",
+      "answer": "El lugar que ocupa la oferta en la percepción del público frente a alternativas.",
+      "explanation": "No describe la ubicación física del almacén.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 124,
+          "printedPage": "119",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-aeroespacial",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Qué rasgos destaca el libro para el marketing aeroespacial?",
+      "answer": "Peso de requisitos técnicos, relaciones industriales, ferias y servicios de soporte posventa complejos.",
+      "explanation": "La oferta debe conectar valor para el cliente con capacidad de cumplimiento.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 125,
+          "printedPage": "120",
+          "section": "Comunicación y posventa"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t5-caso-dafo",
+      "concepts": [
+        "estrategia"
+      ],
+      "title": "Un cambio en el entorno",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Un fabricante tiene un equipo técnico propio muy especializado.",
+      "change": "Un nuevo competidor entra en su mercado.",
+      "constants": "Se analiza desde la perspectiva del fabricante.",
+      "prompts": {
+        "elastic": "¿Cómo clasificar el equipo especializado?",
+        "elongation": "¿Cómo clasificar la entrada del rival?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Fortaleza interna",
+          "Oportunidad externa",
+          "Amenaza externa"
+        ],
+        "elongation": [
+          "Amenaza externa",
+          "Debilidad interna",
+          "Fortaleza interna"
+        ]
+      },
+      "solution": "La capacidad técnica propia es una fortaleza interna; la entrada de un competidor es una amenaza del entorno. DAFO separa origen interno y externo.",
+      "criteria": [
+        "Mantienes la perspectiva de la empresa.",
+        "No confundes un problema externo con una debilidad propia."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 122,
+          "printedPage": "117",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-caso-precio",
+      "concepts": [
+        "mezcla"
+      ],
+      "title": "Precio de lanzamiento",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Un producto nuevo se ofrece inicialmente a un segmento dispuesto a pagar mucho.",
+      "change": "Más adelante se prevé bajar el precio para ampliar compradores.",
+      "constants": "No se está describiendo el coste de fabricación.",
+      "prompts": {
+        "elastic": "¿Qué política de lanzamiento encaja?",
+        "elongation": "¿Qué dato conviene comprobar?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Descremación",
+          "Penetración",
+          "Precio siempre nulo"
+        ],
+        "elongation": [
+          "Disposición a pagar y reacción competitiva",
+          "Sólo color del envase",
+          "Sólo número de trabajadores"
+        ]
+      },
+      "solution": "Es descremación: captar primero segmentos con mayor disposición a pagar. Hay que comprobar que demanda y competencia permiten la política.",
+      "criteria": [
+        "Relacionas precio inicial alto con la estrategia.",
+        "Evitas presentarla como garantía de éxito."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 118,
+          "printedPage": "113",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-caso-encuesta",
+      "concepts": [
+        "plan"
+      ],
+      "title": "Intención de compra",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una encuesta muestra mucho interés en un servicio.",
+      "change": "Un piloto mide cuántos clientes lo contratan realmente.",
+      "constants": "La población objetivo es comparable.",
+      "prompts": {
+        "elastic": "¿Qué mide la encuesta?",
+        "elongation": "¿Qué añade el piloto?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Declaración de intención",
+          "Venta efectiva garantizada",
+          "Beneficio neto"
+        ],
+        "elongation": [
+          "Conducta observable en prueba",
+          "Garantía de ventas futuras",
+          "Ausencia de incertidumbre"
+        ]
+      },
+      "solution": "La encuesta recoge opiniones; el piloto observa una conducta bajo condiciones concretas. Ninguno elimina incertidumbre y se deben revisar sesgos y representatividad.",
+      "criteria": [
+        "Distingues declaración y conducta.",
+        "No generalizas automáticamente el piloto."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 115,
+          "printedPage": "110",
+          "section": "Plan e investigación"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t5-test-dafo",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Una tecnología propia muy eficiente es una…",
+      "options": [
+        "Fortaleza",
+        "Amenaza",
+        "Oportunidad externa",
+        "Debilidad"
+      ],
+      "correct": 0,
+      "explanation": "Es una capacidad interna favorable.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 122,
+          "printedPage": "117",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-test-mix",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "¿Qué pertenece a las cuatro P?",
+      "options": [
+        "Patrimonio",
+        "Distribución",
+        "Pasivo",
+        "Productividad contable"
+      ],
+      "correct": 1,
+      "explanation": "Distribución corresponde a place.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 116,
+          "printedPage": "111",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-test-percepcion",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Posicionamiento se refiere a…",
+      "options": [
+        "Ubicación del taller",
+        "Orden de inventarios",
+        "Percepción frente a alternativas",
+        "Número de facturas"
+      ],
+      "correct": 2,
+      "explanation": "Es una posición en la mente del público.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 124,
+          "printedPage": "119",
+          "section": "Marketing estratégico"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-test-precio",
+      "concepts": [
+        "mezcla"
+      ],
+      "question": "Un precio inicial bajo para facilitar entrada describe…",
+      "options": [
+        "Descremación",
+        "DAFO",
+        "Publicity",
+        "Penetración"
+      ],
+      "correct": 3,
+      "explanation": "Penetración y descremación difieren en la política inicial.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 118,
+          "printedPage": "113",
+          "section": "Las cuatro P"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-test-promocion",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "Un descuento temporal para estimular compras es…",
+      "options": [
+        "Promoción de ventas",
+        "Sólo venta personal",
+        "Auditoría",
+        "Segmentación"
+      ],
+      "correct": 0,
+      "explanation": "El incentivo temporal caracteriza la promoción.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 119,
+          "printedPage": "114",
+          "section": "Comunicación y posventa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t5-test-encuesta",
+      "concepts": [
+        "plan"
+      ],
+      "question": "Una encuesta recoge principalmente…",
+      "options": [
+        "Compras efectivas futuras garantizadas",
+        "Respuestas declaradas",
+        "Sólo datos contables",
+        "Resultados de fabricación"
+      ],
+      "correct": 1,
+      "explanation": "La respuesta declarada necesita interpretación y contraste.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 115,
+          "printedPage": "110",
+          "section": "Plan e investigación"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t5-mapa",
+    "title": "Conexiones · Gestión de marketing",
+    "edges": [
+      {
+        "concepts": [
+          "marketing"
+        ],
+        "from": "Marketing",
+        "relation": "parte de",
+        "to": "Necesidades del cliente",
+        "group": "Marketing y valor",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 111,
+            "printedPage": "106",
+            "section": "Marketing y valor"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "marketing"
+        ],
+        "from": "Satisfacción",
+        "relation": "compara experiencia con",
+        "to": "Expectativas",
+        "group": "Marketing y valor",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 112,
+            "printedPage": "107",
+            "section": "Marketing y valor"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "plan"
+        ],
+        "from": "Plan",
+        "relation": "vincula",
+        "to": "Objetivos, acciones y control",
+        "group": "Plan e investigación",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 113,
+            "printedPage": "108",
+            "section": "Plan e investigación"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "mezcla"
+        ],
+        "from": "Marketing mix",
+        "relation": "coordina",
+        "to": "Producto, precio, distribución y promoción",
+        "group": "Las cuatro P",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 116,
+            "printedPage": "111",
+            "section": "Las cuatro P"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "servicio"
+        ],
+        "from": "Posventa",
+        "relation": "contribuye a",
+        "to": "Fidelización y aprendizaje",
+        "group": "Comunicación y posventa",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 120,
+            "printedPage": "115",
+            "section": "Comunicación y posventa"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "estrategia"
+        ],
+        "from": "DAFO",
+        "relation": "separa",
+        "to": "Interior y entorno",
+        "group": "Marketing estratégico",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 122,
+            "printedPage": "117",
+            "section": "Marketing estratégico"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "estrategia"
+        ],
+        "from": "Segmentación",
+        "relation": "identifica",
+        "to": "Grupos de necesidades similares",
+        "group": "Marketing estratégico",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 123,
+            "printedPage": "118",
+            "section": "Marketing estratégico"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "estrategia"
+        ],
+        "from": "Posicionamiento",
+        "relation": "ocurre en",
+        "to": "Percepción del público",
+        "group": "Marketing estratégico",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 124,
+            "printedPage": "119",
+            "section": "Marketing estratégico"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 3,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Producto, precio, distribución y promoción",
+          "Sólo publicidad",
+          "Sólo producción y coste"
+        ],
+        "answer": "Producto, precio, distribución y promoción",
+        "hint": "Son las cuatro P."
+      },
+      "relation": {
+        "edgeIndex": 7,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "ocurre en",
+          "almacena físicamente",
+          "elimina"
+        ],
+        "answer": "ocurre en",
+        "hint": "Piensa en cómo percibe la oferta el comprador."
+      }
+    },
+    "solution": "La estrategia define a quién servir y qué valor ofrecer; el mix y la posventa llevan esa propuesta a la práctica."
+  }
+}

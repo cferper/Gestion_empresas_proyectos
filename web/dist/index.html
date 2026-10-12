@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudia los seis primeros temas de GEP con tarjetas, casos razonados, mapas y tests basados en el libro de la asignatura.">
+  <title>Proyectos · Estudio y repaso</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23132945'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='sans-serif' font-size='21' font-weight='bold' fill='white'%3EGP%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="estilos.css?v=20261011">
+  <!-- El orden importa: primero contenido, después progreso y por último interfaz. -->
+  <script src="contenido.js?v=20261011" defer></script>
+  <script src="progreso.js?v=20261011" defer></script>
+  <script src="app.js?v=20261011" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#panel">Ir a la actividad</a>
+  <header class="cabecera">
+    <div class="marca"><span class="simbolo" aria-hidden="true">GP</span><span>Gestión y Dirección de Proyectos</span></div>
+    <span id="estado-contenido" class="etapa">Temas 1–6 · Libro GEP</span>
+  </header>
+
+  <main>
+    <div class="encabezado-tema">
+      <div class="tema">
+        <p id="numero-tema" class="etiqueta">Tema 1 de 6</p>
+        <h1 id="titulo-tema">La dirección empresarial</h1>
+        <p class="instruccion">Recuerda, razona y conecta los conceptos.</p>
+        <p id="alcance-tema" class="nota">Las cuatro actividades pertenecen al tema seleccionado.</p>
+      </div>
+      <div class="selectores">
+        <label for="asignatura">Asignatura</label>
+        <select id="asignatura" name="asignatura">
+          <option value="gestion-proyectos">Gestión y Dirección de Proyectos</option>
+        </select>
+        <label for="tema">Tema</label>
+        <select id="tema" name="tema">
+          <option value="gep-t1">1. La dirección empresarial</option>
+        </select>
+      </div>
+    </div>
+
+    <details class="gestion indice">
+      <summary>Índice y conceptos de la asignatura</summary>
+      <p>Los seis primeros capítulos de Gestión de Empresas y Proyectos, según el libro oficial facilitado.</p>
+      <div id="indice-temas"></div>
+    </details>
+    <p id="aviso-almacenamiento" class="aviso" role="alert" hidden></p>
+    <p id="mensaje" class="mensaje" role="status" aria-live="polite" aria-atomic="true"></p>
+
+    <div class="espacio-estudio">
+      <div class="actividad">
+        <div class="pestanas" role="tablist" aria-label="Forma de estudiar">
+          <button id="tab-tarjetas" type="button" role="tab" data-view="tarjetas" aria-selected="true" aria-controls="panel" tabindex="0">Tarjetas</button>
+          <button id="tab-casos" type="button" role="tab" data-view="casos" aria-selected="false" aria-controls="panel" tabindex="-1">Casos</button>
+          <button id="tab-mapa" type="button" role="tab" data-view="mapa" aria-selected="false" aria-controls="panel" tabindex="-1">Mapa</button>
+          <button id="tab-test" type="button" role="tab" data-view="test" aria-selected="false" aria-controls="panel" tabindex="-1">Test</button>
+        </div>
+        <!-- JavaScript coloca aquí la actividad elegida. -->
+        <section id="panel" class="panel" role="tabpanel" tabindex="0" aria-labelledby="tab-tarjetas"></section>
+        <noscript><p class="aviso">Activa JavaScript en tu navegador para estudiar, consultar las soluciones y guardar el progreso.</p></noscript>
+      </div>
+
+      <aside class="lateral" aria-label="Progreso y ajustes">
+        <section class="resumen" aria-labelledby="titulo-progreso">
+          <p class="etiqueta">Tu ritmo</p>
+          <h2 id="titulo-progreso">Progreso del tema</h2>
+          <dl id="estadisticas" class="estadisticas"></dl>
+          <p class="nota">Valora tu recuerdo después de revelar cada respuesta. También puedes practicar cuando no haya tarjetas pendientes.</p>
+        </section>
+
+        <details class="gestion">
+          <summary>Guardar una copia</summary>
+          <p>Tu progreso se guarda en este navegador y no se sincroniza entre dispositivos. Se puede perder al borrar los datos del navegador.</p>
+          <p>Exporta una copia en JSON para conservarla o llevarla a otro navegador. Al importarla se fusionan los registros y se conserva el más reciente de cada actividad.</p>
+          <div class="acciones acciones-verticales">
+            <button id="exportar" class="boton-secundario" type="button">Exportar progreso</button>
+            <label for="importar" class="etiqueta-archivo">Importar una copia</label>
+            <input id="importar" type="file" accept=".json,application/json">
+            <button id="reiniciar" class="boton-peligro" type="button">Reiniciar progreso</button>
+          </div>
+        </details>
+
+        <details class="gestion">
+          <summary>Cómo se programan los repasos</summary>
+          <p>La valoración es tuya: indica cuánto te ha costado recordar la respuesta.</p>
+          <ul class="reglas">
+            <li><strong>No lo sabía:</strong> próxima revisión en 10 minutos.</li>
+            <li><strong>Me costó:</strong> 2 días en la primera valoración. Después, el intervalo anterior (como mínimo 1 día) se multiplica por 1,2, se redondea hacia arriba y se mantiene un mínimo de 1 día.</li>
+            <li><strong>Bien:</strong> 3 días al empezar o si el intervalo anterior era 0. Después, el intervalo anterior se multiplica por 2.</li>
+            <li><strong>Muy fácil:</strong> 7 días al empezar o si el intervalo anterior era 0. Después, el intervalo anterior se multiplica por 3.</li>
+          </ul>
+          <p>Los intervalos en días se redondean hacia arriba y tienen un máximo de 365 días. La práctica adicional también actualiza la próxima fecha de repaso.</p>
+        </details>
+
+        <p class="nota alcance">Actividades propias con referencias al libro: página del PDF y página impresa. Los exámenes orientan la práctica; consulta la guía para las discrepancias entre fuentes.</p>
+        <p><a href="guia.html">Cómo usar la web y cómo está hecha</a></p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>Gestión y Dirección de Proyectos · GEP · Temas 1–6 · Repaso basado en tus materiales.</footer>
+
+  <dialog id="copia-progreso" aria-labelledby="titulo-copia">
+    <h2 id="titulo-copia">Copia de tu progreso</h2>
+    <p>Descarga el archivo JSON y consérvalo para recuperar el progreso.</p>
+    <a id="descargar-copia" class="enlace-descarga">Descargar copia JSON</a>
+    <details class="copia-texto">
+      <summary>Si la descarga no está disponible</summary>
+      <p>Puedes copiar este texto y guardarlo en un archivo con extensión .json.</p>
+      <label for="texto-copia">Contenido de la copia</label>
+      <textarea id="texto-copia" readonly spellcheck="false"></textarea>
+    </details>
+    <button id="cerrar-copia" class="boton-secundario" type="button">Cerrar</button>
+  </dialog>
+  <dialog id="confirmar-reinicio" aria-labelledby="titulo-reinicio">
+    <h2 id="titulo-reinicio">¿Reiniciar el progreso?</h2>
+    <p>Se borrará el progreso guardado en este navegador. Exporta una copia antes si quieres conservarlo.</p>
+    <div class="acciones">
+      <button id="cancelar-reinicio" class="boton-secundario" type="button">Cancelar</button>
+      <button id="borrar-progreso" class="boton-peligro" type="button">Borrar progreso</button>
+    </div>
+  </dialog>
+</body>
+</html>
+

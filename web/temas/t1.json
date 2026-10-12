@@ -1,0 +1,1072 @@
+{
+  "id": "gep-t1",
+  "number": 1,
+  "title": "La dirección empresarial",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "direccion": "Niveles y función directiva",
+    "control": "Sistemas de control",
+    "estrategia": "Estrategia y crecimiento",
+    "funcional": "Benchmarking y reingeniería",
+    "corporativa": "Estrategia corporativa",
+    "competitiva": "Competencia, UEN y cadena de valor",
+    "internacional": "Dirección internacional"
+  },
+  "cards": [
+    {
+      "id": "gep-t1-niveles",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Cómo se diferencian alta dirección, dirección intermedia y dirección operativa?",
+      "answer": "La alta dirección define las estrategias globales; la intermedia dirige centros y departamentos; la operativa asigna tareas y supervisa el trabajo cotidiano.",
+      "explanation": "La diferencia está en el alcance de las decisiones, no sólo en el nombre del cargo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 7,
+          "printedPage": "2",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-funciones",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "Reconstruye las cinco funciones del ciclo directivo.",
+      "answer": "Planificación, organización, ejecución, coordinación y control.",
+      "explanation": "El control informa a la planificación del siguiente ciclo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 9,
+          "printedPage": "4",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-objetivo-plan",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Qué diferencia hay entre un objetivo y un plan?",
+      "answer": "El objetivo expresa lo que se quiere conseguir; el plan establece los medios y las acciones para lograrlo.",
+      "explanation": "El presupuesto traduce el plan a magnitudes económicas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 9,
+          "printedPage": "4",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-mision-vision",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿En qué se distinguen misión y visión?",
+      "answer": "La misión explica la razón de ser, actividad y mercado de la empresa; la visión describe la situación futura a la que aspira.",
+      "explanation": "No son el mismo horizonte temporal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 10,
+          "printedPage": "5",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-formal-informal",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Puede un organigrama describir toda la estructura real de una empresa?",
+      "answer": "No. Representa la estructura formal, pero la estructura real también incluye relaciones informales surgidas entre las personas.",
+      "explanation": "La comunicación y los vínculos informales no desaparecen por existir normas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 10,
+          "printedPage": "5",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-coordinacion-control",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Coordinar departamentos equivale a controlar su trabajo?",
+      "answer": "No. Coordinar alinea departamentos hacia objetivos comunes; controlar compara lo ejecutado con lo previsto e introduce correcciones.",
+      "explanation": "Son funciones complementarias.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 11,
+          "printedPage": "6",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-estatico-dinamico",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Qué cambia al pasar del enfoque tradicional al actual de la competencia?",
+      "answer": "Se pasa de ciclos largos, necesidades estables y competidores definidos a ciclos más cortos, necesidades cambiantes y competencia global dinámica.",
+      "explanation": "Una estrategia que supone estabilidad puede quedarse atrás.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 8,
+          "printedPage": "3",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-ciclo-control",
+      "concepts": [
+        "control"
+      ],
+      "question": "¿Qué pasos conectan un estándar con una acción correctiva?",
+      "answer": "Fijar estándares, medir desempeño, comparar resultados y determinar desviaciones; si no se cumplen los estándares, tomar medidas correctivas.",
+      "explanation": "El principio de excepción concentra la atención en desviaciones importantes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 12,
+          "printedPage": "7",
+          "section": "Sistemas de control"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-temporal-control",
+      "concepts": [
+        "control"
+      ],
+      "question": "Distingue control preliminar, concurrente y de retroalimentación.",
+      "answer": "El preliminar actúa antes de iniciar la operación; el concurrente durante su ejecución; el de retroalimentación usa los resultados posteriores.",
+      "explanation": "Distingue el momento del control de su mecanismo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 12,
+          "printedPage": "7",
+          "section": "Sistemas de control"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-tres-controles",
+      "concepts": [
+        "control"
+      ],
+      "question": "¿Qué mecanismos distinguen control burocrático, de mercado y de clan?",
+      "answer": "El burocrático usa normas y autoridad; el de mercado usa precios e información económica; el de clan usa valores compartidos y confianza.",
+      "explanation": "No son tres nombres para una misma forma de supervisión.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 11,
+          "printedPage": "6",
+          "section": "Sistemas de control"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-auditorias",
+      "concepts": [
+        "control"
+      ],
+      "question": "¿En qué se diferencian auditorías internas, externas y contables?",
+      "answer": "La interna evalúa periódicamente procesos de la propia compañía; la externa implica evaluación por otra organización; la contable verifica informes y estados contables.",
+      "explanation": "Los controles presupuestarios comparan datos reales con presupuestados.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 13,
+          "printedPage": "8",
+          "section": "Sistemas de control"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-empowerment",
+      "concepts": [
+        "control"
+      ],
+      "question": "¿Qué exige el empowerment además de delegar tareas?",
+      "answer": "Delegar poder y autoridad, proporcionar información y capacitación, y hacer al equipo responsable de su trabajo.",
+      "explanation": "Delegar sin recursos ni capacidad de decisión deja incompleta la potenciación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 14,
+          "printedPage": "9",
+          "section": "Sistemas de control"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-cinco-p",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "¿Qué cinco perspectivas reúne el modelo de las 5P de Mintzberg?",
+      "answer": "Plan, estratagema o pauta de acción, patrón, posición y perspectiva.",
+      "explanation": "La estratagema es una maniobra frente al rival; el patrón es consistencia en las acciones.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 15,
+          "printedPage": "10",
+          "section": "Estrategia y crecimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-ansoff",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "¿Cómo se construyen las cuatro opciones de Ansoff?",
+      "answer": "Productos actuales y mercados actuales: penetración; productos nuevos y mercados actuales: desarrollo de producto; productos actuales y mercados nuevos: desarrollo de mercado; ambos nuevos: diversificación.",
+      "explanation": "La diversificación combina dos novedades y requiere gestionar más incertidumbre.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 16,
+          "printedPage": "11",
+          "section": "Estrategia y crecimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-bm-tipos",
+      "concepts": [
+        "funcional"
+      ],
+      "question": "Distingue benchmarking interno, competitivo, funcional y genérico.",
+      "answer": "Interno: entre unidades de la propia empresa; competitivo: con rivales directos; funcional: con líderes de otros sectores en una función común; genérico: sobre procesos comunes con independencia del sector.",
+      "explanation": "Aprender de otros sectores puede aportar soluciones que no se usan en el propio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 19,
+          "printedPage": "14",
+          "section": "Benchmarking y reingeniería"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-bm-pasos",
+      "concepts": [
+        "funcional"
+      ],
+      "question": "¿Cuáles son los cinco pasos del benchmarking?",
+      "answer": "Elegir actividades a emular, formar el equipo, identificar socios de comparación, recopilar y analizar información, ejecutar y controlar los resultados.",
+      "explanation": "Comparar datos sin aplicar mejoras no completa el proceso.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 20,
+          "printedPage": "15",
+          "section": "Benchmarking y reingeniería"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-bpr",
+      "concepts": [
+        "funcional"
+      ],
+      "question": "¿Qué separa la reingeniería de una mejora incremental?",
+      "answer": "La reingeniería replantea y rediseña radicalmente procesos completos para obtener mejoras importantes; la mejora incremental ajusta el proceso existente.",
+      "explanation": "La unidad de análisis pasa de departamentos aislados a procesos que crean valor.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 21,
+          "printedPage": "16",
+          "section": "Benchmarking y reingeniería"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-corporativa",
+      "concepts": [
+        "corporativa"
+      ],
+      "question": "¿Qué decide la estrategia corporativa que una estrategia funcional no abarca?",
+      "answer": "El alcance global de los negocios, las sinergias entre unidades y la asignación compartida de activos y recursos.",
+      "explanation": "Se desarrolla en planos de liderazgo, económico y gerencial.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 22,
+          "printedPage": "17",
+          "section": "Estrategia corporativa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-integracion",
+      "concepts": [
+        "corporativa"
+      ],
+      "question": "¿Comprar un proveedor y crear una red propia de distribución son la misma integración vertical?",
+      "answer": "Ambas son integración vertical, pero comprar o asumir actividades previas es ascendente; asumir actividades posteriores es descendente.",
+      "explanation": "La vertical se refiere a fases consecutivas de la cadena productiva.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 23,
+          "printedPage": "18",
+          "section": "Estrategia corporativa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-diversificacion",
+      "concepts": [
+        "corporativa"
+      ],
+      "question": "¿Cómo se distingue diversificación relacionada de no relacionada?",
+      "answer": "En la relacionada existe vínculo entre los negocios; en la no relacionada se entra en negocios sin esa relación.",
+      "explanation": "La dimensión horizontal describe la variedad de negocios; la geográfica, su presencia espacial.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 24,
+          "printedPage": "19",
+          "section": "Estrategia corporativa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-uen",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Qué cuatro aspectos se analizan para definir una UEN?",
+      "answer": "Misión, atractivo de la industria, posición competitiva y financiación.",
+      "explanation": "La UEN debe poder sostenerse de forma autónoma y viable.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 25,
+          "printedPage": "20",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-porter",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Qué cinco fuerzas describen el atractivo de una industria?",
+      "answer": "Rivalidad existente, poder de proveedores, poder de clientes, amenaza de nuevos competidores y amenaza de sustitutivos.",
+      "explanation": "No confundas atractivo del sector con capacidades internas de una empresa.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 26,
+          "printedPage": "21",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-valor",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Qué actividades primarias y de apoyo distingue la cadena de valor?",
+      "answer": "Primarias: logística interna, operaciones, logística externa, marketing y ventas, servicio posventa. Apoyo: infraestructura, recursos humanos, tecnología y abastecimiento.",
+      "explanation": "Todas contribuyen a crear valor, aunque su relación con el producto sea distinta.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 27,
+          "printedPage": "22",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-estrategias-genericas",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Qué diferencia una estrategia de costes de una de diferenciación y de una centrada?",
+      "answer": "Costes busca operar a menor coste; diferenciación ofrece atributos valorados distintos; la centrada aplica una ventaja a un segmento concreto.",
+      "explanation": "El alcance del mercado y el tipo de ventaja son dimensiones distintas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 24,
+          "printedPage": "19",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-miles-snow",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "Distingue prospectora, analizadora, defensora y reactiva.",
+      "answer": "La prospectora busca oportunidades nuevas; la analizadora combina negocio estable y nuevas oportunidades seleccionadas; la defensora protege una posición con eficiencia; la reactiva responde sin orientación consistente.",
+      "explanation": "Son formas de adaptación al entorno.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 29,
+          "printedPage": "24",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-bcg",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Qué variables y cuadrantes utiliza la matriz BCG?",
+      "answer": "Crecimiento del mercado y participación relativa. Alta-alta: estrella; alto crecimiento y baja participación: interrogación; bajo crecimiento y alta participación: vaca; baja-baja: perro.",
+      "explanation": "La BCG no utiliza los ejes producto nuevo y mercado nuevo de Ansoff.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 30,
+          "printedPage": "25",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-kotler",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Cómo se diferencian líder, retador, seguidor y especialista?",
+      "answer": "El líder tiene la mayor cuota; el retador ataca al líder; el seguidor rentabiliza una cuota menor; el especialista atiende un nicho reducido.",
+      "explanation": "El libro relaciona estas posiciones con distintas acciones competitivas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 30,
+          "printedPage": "25",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-outsourcing-offshoring",
+      "concepts": [
+        "internacional"
+      ],
+      "question": "¿Subcontratar implica necesariamente trasladar una actividad al extranjero?",
+      "answer": "No. Outsourcing implica externalizar; offshoring implica trasladar la actividad a otra zona geográfica. Pueden coincidir, pero no son equivalentes.",
+      "explanation": "Distingue quién realiza el trabajo de dónde se realiza.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 32,
+          "printedPage": "27",
+          "section": "Dirección internacional"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-global-local",
+      "concepts": [
+        "internacional"
+      ],
+      "question": "¿Cómo combinan integración global y respuesta local las estrategias internacionales?",
+      "answer": "Global: integración alta y respuesta local baja; multinacional: integración baja y respuesta local alta; transnacional: ambas altas; internacional: ambas bajas en el esquema del libro.",
+      "explanation": "Los ejes responden a presiones diferentes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 32,
+          "printedPage": "27",
+          "section": "Dirección internacional"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-entrada",
+      "concepts": [
+        "internacional"
+      ],
+      "question": "¿Qué modalidades de entrada internacional compara el libro?",
+      "answer": "Exportación, licencias, franquicias, empresas conjuntas y subsidiarias de propiedad total.",
+      "explanation": "Varían los costes, el control, el conocimiento local y los riesgos compartidos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 32,
+          "printedPage": "27",
+          "section": "Dirección internacional"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-licencia-franquicia",
+      "concepts": [
+        "internacional"
+      ],
+      "question": "¿Qué control puede perderse al conceder una licencia frente a una franquicia?",
+      "answer": "La tabla asocia las licencias con pérdida de control de la tecnología y las franquicias con pérdida de control de la calidad.",
+      "explanation": "Es la comparación didáctica de la tabla del libro, no una recomendación universal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 32,
+          "printedPage": "27",
+          "section": "Dirección internacional"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-intangibles",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Por qué el conocimiento y el prestigio son recursos distintos de una máquina?",
+      "answer": "Son intangibles: no tienen la misma materialidad física y pueden desarrollarse mediante cooperación, aprendizaje y relaciones.",
+      "explanation": "La función directiva también desarrolla estos recursos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 9,
+          "printedPage": "4",
+          "section": "Niveles y función directiva"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t1-caso-ansoff",
+      "concepts": [
+        "estrategia"
+      ],
+      "title": "Una empresa abre otro mercado",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Un fabricante vende el mismo sensor a compañías de su mercado habitual.",
+      "change": "Comienza a vender ese sensor, sin modificarlo, a clientes de otro país.",
+      "constants": "El producto, la tecnología y el proceso de fabricación.",
+      "prompts": {
+        "elastic": "¿Qué estrategia de Ansoff aplica?",
+        "elongation": "¿Qué variable de la matriz cambia?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Desarrollo de mercado",
+          "Desarrollo de producto",
+          "Penetración de mercado"
+        ],
+        "elongation": [
+          "El mercado",
+          "El producto",
+          "Ambas variables"
+        ]
+      },
+      "solution": "Es desarrollo de mercado: conserva el producto y accede a un mercado nuevo. No es diversificación, porque no se introduce simultáneamente un producto nuevo.",
+      "criteria": [
+        "Identificas las dos variables de Ansoff.",
+        "Distingues desarrollo de mercado de diversificación."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 16,
+          "printedPage": "11",
+          "section": "Estrategia y crecimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-caso-control",
+      "concepts": [
+        "control"
+      ],
+      "title": "Detectar un desvío mientras se produce",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una línea tiene un objetivo diario de producción.",
+      "change": "El supervisor observa retrasos durante el turno y reajusta las tareas antes de terminarlo.",
+      "constants": "El objetivo y el procedimiento de medición.",
+      "prompts": {
+        "elastic": "¿Qué enfoque temporal de control aparece?",
+        "elongation": "¿Qué función compara resultados con el objetivo?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Concurrente",
+          "Preliminar",
+          "De retroalimentación"
+        ],
+        "elongation": [
+          "Control",
+          "Planificación",
+          "Organización"
+        ]
+      },
+      "solution": "Es control concurrente porque se realiza durante la ejecución. La comparación con el estándar pertenece al control; el ajuste evita esperar al cierre del turno.",
+      "criteria": [
+        "Justificas el momento en que se interviene.",
+        "Relacionas medición, estándar y corrección."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 12,
+          "printedPage": "7",
+          "section": "Sistemas de control"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Preguntas 1–3: funciones directivas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-caso-integracion",
+      "concepts": [
+        "corporativa"
+      ],
+      "title": "Fabricar una materia prima",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una empresa compra una materia prima a un proveedor independiente.",
+      "change": "Adquiere al proveedor y pasa a gestionar directamente esa actividad.",
+      "constants": "El producto final y los clientes.",
+      "prompts": {
+        "elastic": "¿Qué dimensión estratégica cambia?",
+        "elongation": "¿Cuál es la orientación de la integración?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Vertical",
+          "Horizontal",
+          "Geográfica"
+        ],
+        "elongation": [
+          "Ascendente",
+          "Descendente",
+          "No hay integración"
+        ]
+      },
+      "solution": "Es integración vertical ascendente: se incorpora una etapa previa de la cadena productiva. No se entra necesariamente en un nuevo mercado final ni en otra región.",
+      "criteria": [
+        "Sitúas la actividad antes del proceso principal.",
+        "No confundes integración con diversificación."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 23,
+          "printedPage": "18",
+          "section": "Estrategia corporativa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-caso-matrices",
+      "concepts": [
+        "competitiva"
+      ],
+      "title": "Ansoff no determina la BCG",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una unidad lanza un producto nuevo en un mercado nuevo.",
+      "change": "Se pide asignar un cuadrante de BCG usando sólo ese dato.",
+      "constants": "No se conocen ni crecimiento del mercado ni participación relativa.",
+      "prompts": {
+        "elastic": "¿Qué estrategia de Ansoff se identifica?",
+        "elongation": "¿Puede determinarse un cuadrante BCG?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Diversificación",
+          "Penetración",
+          "Desarrollo de producto"
+        ],
+        "elongation": [
+          "No, faltan los dos ejes de BCG",
+          "Sí, siempre interrogación",
+          "Sí, siempre estrella"
+        ]
+      },
+      "solution": "Ansoff permite identificar diversificación. BCG requiere crecimiento y participación relativa: la novedad del producto y mercado no basta. Una pregunta que iguala ambas matrices sin esos datos es ambigua.",
+      "criteria": [
+        "Nombras los ejes distintos de las matrices.",
+        "Explicas qué información falta."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 30,
+          "printedPage": "25",
+          "section": "Competencia, UEN y cadena de valor"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Pregunta 11: comparación Ansoff–BCG; ambigüedad de datos"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t1-test-informal",
+      "concepts": [
+        "direccion"
+      ],
+      "question": "¿Qué describe mejor una estructura informal?",
+      "options": [
+        "Relaciones espontáneas entre miembros",
+        "Reglas escritas aprobadas por la dirección",
+        "El presupuesto anual",
+        "La jerarquía del organigrama"
+      ],
+      "correct": 0,
+      "explanation": "La estructura informal surge de relaciones sociales; la formal está regulada.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 10,
+          "printedPage": "5",
+          "section": "Niveles y función directiva"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Pregunta 2"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-test-cinco-p",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Una maniobra ideada para dificultar la respuesta del rival es estrategia como…",
+      "options": [
+        "Patrón",
+        "Estratagema",
+        "Perspectiva",
+        "Posición geográfica"
+      ],
+      "correct": 1,
+      "explanation": "La estratagema es la maniobra competitiva; patrón significa consistencia en acciones.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 15,
+          "printedPage": "10",
+          "section": "Estrategia y crecimiento"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Pregunta 25"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-test-clan",
+      "concepts": [
+        "control"
+      ],
+      "question": "¿Qué mecanismo se apoya principalmente en valores compartidos y confianza?",
+      "options": [
+        "Control de mercado",
+        "Control burocrático",
+        "Control de clan",
+        "Control de precios"
+      ],
+      "correct": 2,
+      "explanation": "Los valores compartidos y la confianza caracterizan al clan.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 11,
+          "printedPage": "6",
+          "section": "Sistemas de control"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Pregunta 43"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-test-fuerzas",
+      "concepts": [
+        "competitiva"
+      ],
+      "question": "¿Cuál NO es una de las cinco fuerzas de Porter?",
+      "options": [
+        "Poder de clientes",
+        "Amenaza de sustitutivos",
+        "Rivalidad existente",
+        "Amortización contable"
+      ],
+      "correct": 3,
+      "explanation": "La amortización es un concepto contable, no una fuerza competitiva.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 26,
+          "printedPage": "21",
+          "section": "Competencia, UEN y cadena de valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-test-internacional",
+      "concepts": [
+        "internacional"
+      ],
+      "question": "Una empresa traslada una actividad propia a otro país. El dato permite afirmar que hay…",
+      "options": [
+        "Offshoring",
+        "Outsourcing necesariamente",
+        "Franquicia necesariamente",
+        "Integración descendente necesariamente"
+      ],
+      "correct": 0,
+      "explanation": "Se ha cambiado la ubicación. No se ha indicado externalización.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 32,
+          "printedPage": "27",
+          "section": "Dirección internacional"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Pregunta 13"
+        }
+      ]
+    },
+    {
+      "id": "gep-t1-test-ansoff",
+      "concepts": [
+        "estrategia"
+      ],
+      "question": "Producto nuevo y mercado actual corresponde a…",
+      "options": [
+        "Diversificación",
+        "Desarrollo de mercado",
+        "Desarrollo de producto",
+        "Penetración"
+      ],
+      "correct": 2,
+      "explanation": "Sólo cambia el eje producto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 16,
+          "printedPage": "11",
+          "section": "Estrategia y crecimiento"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t1-mapa",
+    "title": "Conexiones · La dirección empresarial",
+    "edges": [
+      {
+        "concepts": [
+          "direccion"
+        ],
+        "from": "Objetivo",
+        "relation": "se concreta mediante",
+        "to": "Plan",
+        "group": "Niveles y función directiva",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 9,
+            "printedPage": "4",
+            "section": "Niveles y función directiva"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "control"
+        ],
+        "from": "Control",
+        "relation": "compara resultados con",
+        "to": "Estándares",
+        "group": "Sistemas de control",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 12,
+            "printedPage": "7",
+            "section": "Sistemas de control"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "estrategia"
+        ],
+        "from": "Producto actual + mercado nuevo",
+        "relation": "define",
+        "to": "Desarrollo de mercado",
+        "group": "Estrategia y crecimiento",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 17,
+            "printedPage": "12",
+            "section": "Estrategia y crecimiento"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "funcional"
+        ],
+        "from": "Benchmarking",
+        "relation": "aprende mediante",
+        "to": "Comparación con buenas prácticas",
+        "group": "Benchmarking y reingeniería",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 18,
+            "printedPage": "13",
+            "section": "Benchmarking y reingeniería"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "corporativa"
+        ],
+        "from": "Integración ascendente",
+        "relation": "incorpora",
+        "to": "Actividades previas",
+        "group": "Estrategia corporativa",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 23,
+            "printedPage": "18",
+            "section": "Estrategia corporativa"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "competitiva"
+        ],
+        "from": "Cinco fuerzas",
+        "relation": "evalúan",
+        "to": "Atractivo de la industria",
+        "group": "Competencia, UEN y cadena de valor",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 26,
+            "printedPage": "21",
+            "section": "Competencia, UEN y cadena de valor"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "competitiva"
+        ],
+        "from": "Cadena de valor",
+        "relation": "analiza",
+        "to": "Actividades creadoras de valor",
+        "group": "Competencia, UEN y cadena de valor",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 27,
+            "printedPage": "22",
+            "section": "Competencia, UEN y cadena de valor"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "internacional"
+        ],
+        "from": "Transnacional",
+        "relation": "combina",
+        "to": "Integración global y respuesta local altas",
+        "group": "Dirección internacional",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 32,
+            "printedPage": "27",
+            "section": "Dirección internacional"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Plan",
+          "Resultado de explotación",
+          "Cuota de mercado"
+        ],
+        "answer": "Plan",
+        "hint": "El objetivo es el fin; busca el medio."
+      },
+      "relation": {
+        "edgeIndex": 1,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "compara resultados con",
+          "sustituye por completo",
+          "impide medir"
+        ],
+        "answer": "compara resultados con",
+        "hint": "Necesita un patrón de desempeño esperado."
+      }
+    },
+    "solution": "La dirección convierte objetivos en planes y comprueba su cumplimiento. Las decisiones sobre alcance, ventaja competitiva e internacionalización se apoyan en herramientas con ejes diferentes."
+  }
+}

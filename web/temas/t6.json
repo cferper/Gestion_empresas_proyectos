@@ -1,0 +1,858 @@
+{
+  "id": "gep-t6",
+  "number": 6,
+  "title": "Gestión de la calidad",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "concepto": "Calidad y mejora",
+    "autores": "Autores y enfoques",
+    "herramientas": "Herramientas de calidad",
+    "sistema": "Sistema de gestión",
+    "excelencia": "Excelencia y Six Sigma",
+    "aeroespacial": "Calidad aeroespacial"
+  },
+  "cards": [
+    {
+      "id": "gep-t6-calidad",
+      "concepts": [
+        "concepto"
+      ],
+      "question": "¿Con qué se relaciona la calidad en el tema?",
+      "answer": "Con satisfacer necesidades explícitas e implícitas y cumplir requisitos, considerando uso y expectativas.",
+      "explanation": "Los autores aportan perspectivas complementarias.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 127,
+          "printedPage": "122",
+          "section": "Calidad y mejora"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-pdca",
+      "concepts": [
+        "concepto"
+      ],
+      "question": "Reconstruye el ciclo PDCA.",
+      "answer": "Planificar objetivos y método; hacer; comprobar resultados; actuar para corregir o consolidar y reiniciar el ciclo.",
+      "explanation": "Comprobar es contrastar con criterios, no limitarse a ejecutar.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 128,
+          "printedPage": "123",
+          "section": "Calidad y mejora"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-variacion",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Qué distingue causas comunes y especiales de variación?",
+      "answer": "Comunes: inherentes al funcionamiento del proceso; especiales: fuentes identificables ajenas a su patrón habitual.",
+      "explanation": "No toda fluctuación necesita la misma respuesta.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 129,
+          "printedPage": "124",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-deming",
+      "concepts": [
+        "autores"
+      ],
+      "question": "¿Por qué Deming no limita calidad a inspección final?",
+      "answer": "Porque requiere mejora del sistema, liderazgo, formación y cooperación, actuando sobre el proceso.",
+      "explanation": "La inspección por sí sola detecta defectos después de producirlos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 130,
+          "printedPage": "125",
+          "section": "Autores y enfoques"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-juran",
+      "concepts": [
+        "autores"
+      ],
+      "question": "¿Qué reúne la trilogía de Juran?",
+      "answer": "Planificación, control y mejora de la calidad.",
+      "explanation": "Son funciones complementarias del sistema.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 131,
+          "printedPage": "126",
+          "section": "Autores y enfoques"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-pareto",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Qué utilidad tiene Pareto y qué límite tiene el 80/20?",
+      "answer": "Ayuda a priorizar categorías por su contribución al problema; la proporción 80/20 es una pauta, no una ley exacta de todos los datos.",
+      "explanation": "La prioridad se obtiene de los datos concretos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 131,
+          "printedPage": "126",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-ishikawa",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Para qué sirve un diagrama de Ishikawa?",
+      "answer": "Para organizar posibles causas de un efecto o problema y orientar investigación.",
+      "explanation": "El diagrama no demuestra causalidad por sí solo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 132,
+          "printedPage": "127",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-crosby",
+      "concepts": [
+        "autores"
+      ],
+      "question": "¿Qué destaca Crosby?",
+      "answer": "Conformidad con requisitos y prevención; cero defectos como orientación de gestión.",
+      "explanation": "No significa que pueda omitirse la medición de fallos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 132,
+          "printedPage": "127",
+          "section": "Autores y enfoques"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-taguchi",
+      "concepts": [
+        "autores"
+      ],
+      "question": "¿Qué añade la función de pérdida de Taguchi?",
+      "answer": "Considera perjuicio asociado a desviarse del objetivo, incluso dentro de tolerancias.",
+      "explanation": "Conforme/no conforme no agota el impacto de variación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 133,
+          "printedPage": "128",
+          "section": "Autores y enfoques"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-enfoques",
+      "concepts": [
+        "concepto"
+      ],
+      "question": "Distingue control, aseguramiento y calidad total.",
+      "answer": "Control comprueba operaciones y resultados; aseguramiento organiza actividades que dan confianza en cumplimiento; calidad total compromete al conjunto de la organización.",
+      "explanation": "Se amplía el alcance de actuación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 133,
+          "printedPage": "128",
+          "section": "Calidad y mejora"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-siete",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Qué siete herramientas básicas enumera el libro?",
+      "answer": "Flujograma, Pareto, causa-efecto, histograma, gráfico de control, dispersión y hoja de comprobación.",
+      "explanation": "La herramienta se elige según la pregunta y el dato.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 134,
+          "printedPage": "129",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-histograma",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Cómo difieren histograma y gráfico de control?",
+      "answer": "Histograma muestra distribución de frecuencias; gráfico de control sigue variación del proceso en una secuencia con límites.",
+      "explanation": "Los límites de control no son automáticamente tolerancias del producto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 134,
+          "printedPage": "129",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-dispersion",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "¿Qué revela y qué no prueba un diagrama de dispersión?",
+      "answer": "Revela una posible asociación entre dos variables; no demuestra por sí solo que una cause la otra.",
+      "explanation": "Investiga mecanismos y factores externos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 134,
+          "printedPage": "129",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-sgc",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué organiza un sistema de gestión de la calidad?",
+      "answer": "Política, objetivos, procesos, responsabilidades y evidencia para dirigir y mejorar la calidad.",
+      "explanation": "No se reduce a archivar documentos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 136,
+          "printedPage": "131",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-iso",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué enfoques destaca el libro al estudiar ISO 9001:2015?",
+      "answer": "Procesos, ciclo PDCA y pensamiento basado en riesgos y oportunidades.",
+      "explanation": "La edición se identifica como la estudiada en el libro; no se afirma que sea la normativa más reciente.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 137,
+          "printedPage": "132",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-principios",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "Enumera los siete principios de gestión de la calidad.",
+      "answer": "Enfoque al cliente, liderazgo, compromiso de las personas, procesos, mejora, decisiones basadas en evidencia y gestión de relaciones.",
+      "explanation": "Conectan decisiones organizativas con calidad sostenida.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 138,
+          "printedPage": "133",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-estructura",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué bloques de requisitos describe el libro para ISO 9001:2015?",
+      "answer": "Contexto, liderazgo, planificación, apoyo, operación, evaluación del desempeño y mejora.",
+      "explanation": "Corresponden a los capítulos 4 a 10 del esquema estudiado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 138,
+          "printedPage": "133",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-documentos",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Toda organización debe tener un manual de calidad con idéntica estructura?",
+      "answer": "No. Debe mantener la información documentada y evidencias requeridas; manual, procedimientos, instrucciones y registros son una organización ilustrativa.",
+      "explanation": "El libro presenta frases contradictorias sobre el manual; no se trata como exigencia universal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 141,
+          "printedPage": "136",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-certificacion",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué diferencia certificación de acreditación en el esquema del libro?",
+      "answer": "La certificación evalúa conformidad de un sistema; la acreditación reconoce competencia de quienes realizan actividades de evaluación.",
+      "explanation": "ISO elabora normas; no expide por sí misma el certificado de cada empresa.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 141,
+          "printedPage": "136",
+          "section": "Sistema de gestión"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-sixsigma",
+      "concepts": [
+        "excelencia"
+      ],
+      "question": "¿A qué se refiere la cifra convencional de 3,4 de Six Sigma?",
+      "answer": "A defectos por millón de oportunidades bajo las convenciones del enfoque.",
+      "explanation": "No equivale sin más a 3,4 productos defectuosos por millón de productos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 142,
+          "printedPage": "137",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-dmaic",
+      "concepts": [
+        "excelencia"
+      ],
+      "question": "¿Cuáles son las etapas DMAIC?",
+      "answer": "Definir, medir, analizar, mejorar y controlar.",
+      "explanation": "Controlar busca sostener la mejora obtenida.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 143,
+          "printedPage": "138",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-efqm",
+      "concepts": [
+        "excelencia"
+      ],
+      "question": "¿Qué uso tiene EFQM en el tema?",
+      "answer": "Autoevaluación de la organización, identificación de fortalezas y oportunidades de mejora hacia la excelencia.",
+      "explanation": "El diagrama de agentes y resultados es el esquema reproducido en el libro, no una afirmación sobre la versión actual.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 145,
+          "printedPage": "140",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-9100",
+      "concepts": [
+        "aeroespacial"
+      ],
+      "question": "¿Qué añade la familia 9100 al enfoque general de calidad?",
+      "answer": "Requisitos sectoriales aeroespaciales, con atención a riesgos, seguridad, trazabilidad, cambios y componentes no auténticos.",
+      "explanation": "El libro cita EN 9100:2016 como edición de estudio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 146,
+          "printedPage": "141",
+          "section": "Calidad aeroespacial"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-familia",
+      "concepts": [
+        "aeroespacial"
+      ],
+      "question": "¿Qué ámbitos distingue el libro entre 9100, 9110 y 9120?",
+      "answer": "9100: diseño y fabricación; 9110: mantenimiento; 9120: distribución.",
+      "explanation": "Son los ámbitos didácticos del tema, no una consulta de normativa vigente.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 146,
+          "printedPage": "141",
+          "section": "Calidad aeroespacial"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t6-caso-herramienta",
+      "concepts": [
+        "herramientas"
+      ],
+      "title": "Elegir una herramienta",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Se registran cien incidencias clasificadas por tipo.",
+      "change": "Se desea priorizar las categorías que más contribuyen al total.",
+      "constants": "Se conocen las frecuencias por categoría.",
+      "prompts": {
+        "elastic": "¿Qué herramienta elegir?",
+        "elongation": "¿Qué no se puede presuponer?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Pareto",
+          "Diagrama de dispersión sin pares",
+          "Organigrama"
+        ],
+        "elongation": [
+          "Que siempre se cumple exactamente 80/20",
+          "Que hay categorías",
+          "Que las frecuencias se pueden sumar"
+        ]
+      },
+      "solution": "Pareto ordena categorías por contribución y permite observar acumulados. Los datos determinarán qué proporción explica el mayor volumen; no se impone 80/20.",
+      "criteria": [
+        "Relacionas herramienta y objetivo.",
+        "Usas frecuencias, no una proporción prefijada."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 134,
+          "printedPage": "129",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-caso-pdca",
+      "concepts": [
+        "concepto"
+      ],
+      "title": "Un piloto y sus resultados",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Se planifica una mejora y se prueba en una línea.",
+      "change": "Se comparan tasas de defectos antes y después frente al objetivo.",
+      "constants": "El método de medición es comparable.",
+      "prompts": {
+        "elastic": "¿Qué fase se realiza al comparar?",
+        "elongation": "¿Qué viene si la mejora se confirma?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Check: comprobar",
+          "Do: ejecutar",
+          "Plan: formular objetivos"
+        ],
+        "elongation": [
+          "Act: consolidar y seguir mejorando",
+          "Abandonar medición",
+          "Borrar criterios"
+        ]
+      },
+      "solution": "Comparar evidencia con el objetivo es Check. Después se actúa: se consolida lo que funciona o se corrige lo que falla, alimentando otro ciclo.",
+      "criteria": [
+        "No confundes prueba con evaluación.",
+        "Cierras el ciclo con actuación."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 128,
+          "printedPage": "123",
+          "section": "Calidad y mejora"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-caso-sigma",
+      "concepts": [
+        "excelencia"
+      ],
+      "title": "Oportunidades y unidades",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una pieza tiene cinco oportunidades de defecto. Se evalúan mil piezas.",
+      "change": "Se observan diez defectos y se quiere calcular DPMO.",
+      "constants": "Cada pieza aporta las mismas cinco oportunidades.",
+      "prompts": {
+        "elastic": "¿Cuántas oportunidades se evaluaron?",
+        "elongation": "¿Cuál es el DPMO?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "5.000",
+          "1.000",
+          "10.000"
+        ],
+        "elongation": [
+          "2.000",
+          "10.000",
+          "3,4"
+        ]
+      },
+      "solution": "DPMO = 10/(1.000×5)×1.000.000 = 2.000. No se divide sólo por piezas y tampoco se presupone el valor convencional de Six Sigma.",
+      "criteria": [
+        "Distingues unidad de oportunidad.",
+        "Incluyes el factor por millón."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 142,
+          "printedPage": "137",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t6-test-pdca",
+      "concepts": [
+        "concepto"
+      ],
+      "question": "Comparar los resultados con el objetivo es…",
+      "options": [
+        "Check",
+        "Do",
+        "Plan",
+        "Ninguna fase"
+      ],
+      "correct": 0,
+      "explanation": "La comprobación precede a la actuación de consolidación o corrección.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 128,
+          "printedPage": "123",
+          "section": "Calidad y mejora"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-test-juran",
+      "concepts": [
+        "autores"
+      ],
+      "question": "La trilogía de Juran incluye…",
+      "options": [
+        "Sólo inspección",
+        "Planificación, control y mejora",
+        "Sólo costes",
+        "Publicidad y venta"
+      ],
+      "correct": 1,
+      "explanation": "Las tres funciones se complementan.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 131,
+          "printedPage": "126",
+          "section": "Autores y enfoques"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-test-causa",
+      "concepts": [
+        "herramientas"
+      ],
+      "question": "Para organizar posibles causas de un defecto usarías…",
+      "options": [
+        "Balance",
+        "Matriz BCG",
+        "Ishikawa",
+        "Ansoff"
+      ],
+      "correct": 2,
+      "explanation": "El diagrama causa-efecto estructura hipótesis de causas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 134,
+          "printedPage": "129",
+          "section": "Herramientas de calidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-test-sigma",
+      "concepts": [
+        "excelencia"
+      ],
+      "question": "DPMO usa como denominador…",
+      "options": [
+        "Sólo ingresos",
+        "Sólo días",
+        "Siempre unidades sin ajustes",
+        "Número de oportunidades de defecto"
+      ],
+      "correct": 3,
+      "explanation": "Las oportunidades por unidad deben estar definidas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 142,
+          "printedPage": "137",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-test-dmaic",
+      "concepts": [
+        "excelencia"
+      ],
+      "question": "DMAIC acaba con…",
+      "options": [
+        "Controlar",
+        "Crear publicidad",
+        "Cerrar la empresa",
+        "Repetir sin medir"
+      ],
+      "correct": 0,
+      "explanation": "Busca mantener la mejora.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 143,
+          "printedPage": "138",
+          "section": "Excelencia y Six Sigma"
+        }
+      ]
+    },
+    {
+      "id": "gep-t6-test-familia",
+      "concepts": [
+        "aeroespacial"
+      ],
+      "question": "En el esquema del libro, 9110 corresponde a…",
+      "options": [
+        "Distribución",
+        "Mantenimiento",
+        "Sólo marketing",
+        "Contabilidad"
+      ],
+      "correct": 1,
+      "explanation": "9100 se relaciona con diseño y fabricación; 9120 con distribución.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 146,
+          "printedPage": "141",
+          "section": "Calidad aeroespacial"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t6-mapa",
+    "title": "Conexiones · Gestión de la calidad",
+    "edges": [
+      {
+        "concepts": [
+          "concepto"
+        ],
+        "from": "PDCA",
+        "relation": "conecta",
+        "to": "Planificar, hacer, comprobar y actuar",
+        "group": "Calidad y mejora",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 128,
+            "printedPage": "123",
+            "section": "Calidad y mejora"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "autores"
+        ],
+        "from": "Juran",
+        "relation": "propone",
+        "to": "Planificar, controlar y mejorar",
+        "group": "Autores y enfoques",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 131,
+            "printedPage": "126",
+            "section": "Autores y enfoques"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "herramientas"
+        ],
+        "from": "Pareto",
+        "relation": "ayuda a",
+        "to": "Priorizar categorías",
+        "group": "Herramientas de calidad",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 134,
+            "printedPage": "129",
+            "section": "Herramientas de calidad"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "herramientas"
+        ],
+        "from": "Ishikawa",
+        "relation": "organiza",
+        "to": "Posibles causas",
+        "group": "Herramientas de calidad",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 134,
+            "printedPage": "129",
+            "section": "Herramientas de calidad"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "sistema"
+        ],
+        "from": "SGC",
+        "relation": "integra",
+        "to": "Procesos y responsabilidades",
+        "group": "Sistema de gestión",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 136,
+            "printedPage": "131",
+            "section": "Sistema de gestión"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "sistema"
+        ],
+        "from": "Decisiones de calidad",
+        "relation": "se apoyan en",
+        "to": "Evidencia",
+        "group": "Sistema de gestión",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 138,
+            "printedPage": "133",
+            "section": "Sistema de gestión"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "excelencia"
+        ],
+        "from": "DMAIC",
+        "relation": "termina con",
+        "to": "Controlar la mejora",
+        "group": "Excelencia y Six Sigma",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 143,
+            "printedPage": "138",
+            "section": "Excelencia y Six Sigma"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "aeroespacial"
+        ],
+        "from": "Familia 9100",
+        "relation": "añade",
+        "to": "Requisitos aeroespaciales",
+        "group": "Calidad aeroespacial",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 146,
+            "printedPage": "141",
+            "section": "Calidad aeroespacial"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 2,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Priorizar categorías",
+          "Probar automáticamente causalidad",
+          "Obligar a un 80/20 exacto"
+        ],
+        "answer": "Priorizar categorías",
+        "hint": "Ordena las contribuciones al problema."
+      },
+      "relation": {
+        "edgeIndex": 5,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "se apoyan en",
+          "prescinden de",
+          "sustituyen"
+        ],
+        "answer": "se apoyan en",
+        "hint": "Piensa en uno de los siete principios."
+      }
+    },
+    "solution": "La calidad conecta requisitos, procesos, datos y mejora. La certificación y los modelos de excelencia tienen propósitos distintos."
+  }
+}

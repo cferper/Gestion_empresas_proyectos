@@ -1,0 +1,1348 @@
+{
+  "id": "gep-t3",
+  "number": 3,
+  "title": "Gestión económico-financiera de la empresa",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "cuentas": "Cuentas y principios contables",
+    "valoracion": "Criterios de valoración",
+    "balance": "Balance y partidas",
+    "contabilidad": "Asientos y regla de la T",
+    "liquidez": "Liquidez y fondo de maniobra",
+    "deuda": "Endeudamiento",
+    "resultados": "Resultados y rentabilidad",
+    "caja": "Cash-flow y autofinanciación"
+  },
+  "cards": [
+    {
+      "id": "gep-t3-analisis",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Qué tres documentos permiten analizar patrimonio, resultados y flujos?",
+      "answer": "Balance, cuenta de pérdidas y ganancias y estado de flujos de efectivo.",
+      "explanation": "Una empresa puede presentar beneficio y tener dificultades de tesorería.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 49,
+          "printedPage": "44",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-anuales",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Qué cinco documentos enumera el libro como cuentas anuales?",
+      "answer": "Balance, cuenta de pérdidas y ganancias, estado de cambios en el patrimonio neto, estado de flujos de efectivo y memoria.",
+      "explanation": "El libro también trata los modelos abreviados. Aquí se estudia su esquema, no se actualiza normativa legal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 50,
+          "printedPage": "45",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-imagen",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Qué exige la imagen fiel y qué cualidades debe tener la información?",
+      "answer": "Representar patrimonio, situación financiera y resultados con información relevante y fiable, completa, comparable y clara.",
+      "explanation": "Una cifra exacta pero que omite información significativa no basta.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 50,
+          "printedPage": "45",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-devengo",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "Si se vende en diciembre y se cobra en enero, ¿cuándo corresponde el ingreso?",
+      "answer": "En diciembre, cuando ocurre la venta, según el principio de devengo; el cobro se registra cuando se realiza.",
+      "explanation": "Ingreso y cobro no son sinónimos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 51,
+          "printedPage": "46",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-principios",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Cuáles son los seis principios contables tratados?",
+      "answer": "Empresa en funcionamiento, devengo, uniformidad, prudencia, no compensación e importancia relativa.",
+      "explanation": "Su aplicación debe servir a la imagen fiel.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 51,
+          "printedPage": "46",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-prudencia",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Prudencia permite reducir arbitrariamente los resultados?",
+      "answer": "No. Exige estimaciones prudentes en incertidumbre, sin distorsionar la imagen fiel, y considerar los riesgos conocidos.",
+      "explanation": "No equivale a ocultar ingresos ni a inventar pérdidas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 51,
+          "printedPage": "46",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-no-compensacion",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "¿Por qué no se compensan sin más activo y pasivo ni ingresos y gastos?",
+      "answer": "Porque deben valorarse separadamente; netearlos ocultaría magnitudes importantes.",
+      "explanation": "El principio tiene excepciones expresamente previstas; en el estudio básico se usa la separación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 52,
+          "printedPage": "47",
+          "section": "Cuentas y principios contables"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-coste-valor",
+      "concepts": [
+        "valoracion"
+      ],
+      "question": "Distingue coste histórico, valor razonable y valor neto realizable.",
+      "answer": "Coste histórico: adquisición o producción. Razonable: precio de una transacción ordenada de mercado. Neto realizable: importe estimado de venta menos costes necesarios para terminar y vender.",
+      "explanation": "No son valores intercambiables.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 54,
+          "printedPage": "49",
+          "section": "Criterios de valoración"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-actual-uso",
+      "concepts": [
+        "valoracion"
+      ],
+      "question": "¿Qué tienen en común y en qué difieren valor actual y valor en uso?",
+      "answer": "Ambos actualizan flujos futuros. El valor en uso se vincula a la utilización del activo y su disposición final; el valor actual se refiere a flujos a recibir o pagar.",
+      "explanation": "Los flujos y el tipo deben ser coherentes con el concepto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 54,
+          "printedPage": "49",
+          "section": "Criterios de valoración"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-contable-residual",
+      "concepts": [
+        "valoracion"
+      ],
+      "question": "¿Qué diferencia valor contable de valor residual?",
+      "answer": "Contable: importe registrado neto de amortización y deterioro. Residual: importe estimado al final de la vida útil, descontados costes de disposición.",
+      "explanation": "El residual no es automáticamente el saldo contable actual.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 55,
+          "printedPage": "50",
+          "section": "Criterios de valoración"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-ecuacion",
+      "concepts": [
+        "balance"
+      ],
+      "question": "¿Cuál es la ecuación básica del balance?",
+      "answer": "Activo = patrimonio neto + pasivo exigible.",
+      "explanation": "El patrimonio neto no es una deuda externa; aclara el sentido de pasivo en cada fórmula.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 58,
+          "printedPage": "53",
+          "section": "Balance y partidas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-estructura",
+      "concepts": [
+        "balance"
+      ],
+      "question": "¿Qué describen las estructuras económica y financiera del balance?",
+      "answer": "La económica describe inversiones y destino de los fondos; la financiera, su origen mediante patrimonio neto y deudas.",
+      "explanation": "Son dos perspectivas del mismo patrimonio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 57,
+          "printedPage": "52",
+          "section": "Balance y partidas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-activo-corriente",
+      "concepts": [
+        "balance"
+      ],
+      "question": "¿Qué tres grupos distingue el activo corriente en el esquema del libro?",
+      "answer": "Existencias, realizable y disponible.",
+      "explanation": "Realizable son derechos de cobro; disponible es dinero en caja y bancos a la vista.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 58,
+          "printedPage": "53",
+          "section": "Balance y partidas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-clasificacion",
+      "concepts": [
+        "balance"
+      ],
+      "question": "Clasifica máquina, deuda bancaria a largo plazo, reservas y clientes.",
+      "answer": "Máquina: activo no corriente. Deuda a largo: pasivo no corriente. Reservas: patrimonio neto. Clientes: realizable del activo corriente.",
+      "explanation": "No clasifiques por el nombre del tercero, sino por naturaleza y plazo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 58,
+          "printedPage": "53",
+          "section": "Balance y partidas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-inmaterial",
+      "concepts": [
+        "balance"
+      ],
+      "question": "¿Dónde sitúa el libro el desarrollo y las aplicaciones informáticas activadas?",
+      "answer": "En inmovilizado inmaterial o intangible, dentro del activo no corriente.",
+      "explanation": "La actividad debe cumplir sus condiciones de reconocimiento; no todo gasto de I+D se activa automáticamente.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 57,
+          "printedPage": "52",
+          "section": "Balance y partidas"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-diario-mayor",
+      "concepts": [
+        "contabilidad"
+      ],
+      "question": "¿En qué se diferencian Libro Diario y Libro Mayor?",
+      "answer": "El Diario registra operaciones cronológicamente; el Mayor agrupa movimientos por cuenta para conocer evolución y saldo.",
+      "explanation": "Son formas complementarias de organizar la misma información.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 64,
+          "printedPage": "59",
+          "section": "Asientos y regla de la T"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-debe-haber",
+      "concepts": [
+        "contabilidad"
+      ],
+      "question": "¿En qué lado se registran aumentos de activo, pasivo y patrimonio neto?",
+      "answer": "Aumento de activo: debe. Aumento de pasivo y patrimonio neto: haber. Las disminuciones se registran en el lado contrario.",
+      "explanation": "Cada asiento mantiene igualdad entre importes del debe y del haber.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Asientos y regla de la T"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-ingresos-gastos",
+      "concepts": [
+        "contabilidad"
+      ],
+      "question": "¿En qué lado se registran gastos e ingresos?",
+      "answer": "Los gastos aumentan en el debe; los ingresos aumentan en el haber.",
+      "explanation": "El lado del asiento no determina si se ha cobrado o pagado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Asientos y regla de la T"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-compra-contado",
+      "concepts": [
+        "contabilidad"
+      ],
+      "question": "Al comprar una máquina y pagarla por banco, ¿qué cambia en el balance?",
+      "answer": "Aumenta el inmovilizado y disminuye el disponible por el mismo importe; el activo total no cambia, sin impuestos ni otros efectos.",
+      "explanation": "Es una permuta de activos, no un gasto íntegro inmediato.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Asientos y regla de la T"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-compra-deuda",
+      "concepts": [
+        "contabilidad"
+      ],
+      "question": "Si se compra una máquina a crédito, ¿qué ocurre con activo y pasivo?",
+      "answer": "Aumentan ambos por el importe de la adquisición; el patrimonio neto no cambia sólo por esa compra.",
+      "explanation": "Distingue comprar un activo de registrar su amortización posterior.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Asientos y regla de la T"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-liquidez",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Cómo se calcula la ratio de liquidez?",
+      "answer": "Activo corriente / pasivo corriente.",
+      "explanation": "Interpreta su composición, vencimientos y sector; no convierte todas las existencias en efectivo inmediato.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 67,
+          "printedPage": "62",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-acidez",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Qué fórmula utiliza el libro para acidez o prueba ácida?",
+      "answer": "Rpa = (activo corriente − existencias) / pasivo corriente = (disponible + realizable) / pasivo corriente.",
+      "explanation": "Algunos resúmenes llaman tesorería a esta fórmula; la web sigue el libro.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 68,
+          "printedPage": "63",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-tesoreria",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Qué mide la ratio de tesorería o disponibilidad en este libro?",
+      "answer": "Disponible / pasivo corriente: capacidad de pago más inmediata con efectivo.",
+      "explanation": "No incluye clientes pendientes de cobro.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 68,
+          "printedPage": "63",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-fm",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Cómo se calcula el fondo de maniobra y qué implica que sea negativo?",
+      "answer": "FM = activo corriente − pasivo corriente. Negativo implica que parte del activo no corriente se financia con deuda a corto.",
+      "explanation": "Su interpretación final depende del ciclo de explotación y los vencimientos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 68,
+          "printedPage": "63",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-rfm",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Es lo mismo fondo de maniobra que ratio de fondo de maniobra?",
+      "answer": "No. FM es una diferencia en euros; la ratio divide FM entre recursos permanentes: PN + pasivo a largo plazo, en el esquema del libro.",
+      "explanation": "No uses pasivo corriente como denominador de esa ratio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 69,
+          "printedPage": "64",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-necesario",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "¿Cómo se distinguen FM aparente, necesario y posición de tesorería?",
+      "answer": "Aparente = AC − PC. Necesario = AC de explotación − PC de explotación. Posición de tesorería = aparente − necesario.",
+      "explanation": "El necesario se refiere al ciclo ordinario de explotación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 69,
+          "printedPage": "64",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-solvencia",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "¿Qué diferencia la solvencia de la liquidez?",
+      "answer": "La solvencia del esquema usa activo total / deudas totales; la liquidez se limita a activo y pasivo corrientes.",
+      "explanation": "Aclara que las deudas excluyen patrimonio neto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 70,
+          "printedPage": "65",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-autonomia",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "¿Cómo se relacionan autonomía financiera y endeudamiento?",
+      "answer": "Autonomía = PN / deudas; endeudamiento = deudas / PN. Son inversas cuando ambas magnitudes son positivas y no nulas.",
+      "explanation": "No compares valores si cambia la fórmula usada.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 70,
+          "printedPage": "65",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-capitalizacion",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "¿Cómo se calcula la capitalización y qué mide?",
+      "answer": "PN / (PN + deudas): peso de los recursos propios en la financiación total.",
+      "explanation": "No tiene el mismo denominador que PN/deudas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 71,
+          "printedPage": "66",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-calidad-deuda",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "¿Qué mide la ratio llamada calidad de la deuda?",
+      "answer": "Pasivo corriente / deudas totales: proporción de deuda con vencimiento próximo.",
+      "explanation": "Con la misma deuda total, una proporción menor reduce la presión de vencimientos a corto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 72,
+          "printedPage": "67",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-gastos-financieros",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "¿Cómo se distinguen ratio de gastos financieros y coste de la deuda?",
+      "answer": "Gastos financieros: intereses / ventas netas. Coste de deuda: compara el tipo o coste de intereses de la deuda con el tipo de referencia.",
+      "explanation": "No confundas importe de intereses, tipo porcentual y principal devuelto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 72,
+          "printedPage": "67",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-costes",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Coste fijo equivale a coste indirecto?",
+      "answer": "No. Fijo/variable clasifica comportamiento respecto al volumen; directo/indirecto clasifica atribución a un producto o actividad.",
+      "explanation": "Son ejes distintos de clasificación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 59,
+          "printedPage": "54",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-escalones",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Qué escalones separan EBITDA, BAII, BAI y beneficio neto?",
+      "answer": "EBITDA precede a amortizaciones; BAII o EBIT precede a intereses e impuestos; BAI incorpora el resultado financiero antes de impuestos; BN descuenta impuestos.",
+      "explanation": "Las partidas extraordinarias u otros ajustes deben seguir el enunciado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 60,
+          "printedPage": "55",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-margen-rotacion",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Cómo se descompone BAII/activo total?",
+      "answer": "BAII/A = (BAII/ventas) × (ventas/A) = margen operativo × rotación del activo.",
+      "explanation": "Los factores deben usar el mismo periodo y las mismas magnitudes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 76,
+          "printedPage": "71",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-roe-convencion",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Qué numerador usa el ROE de la página 70 impresa y por qué hay que explicitarlo?",
+      "answer": "Usa BAI/PN. Los apuntes y algunas preguntas de exámenes usan BN/PN; dan resultados distintos cuando hay impuestos.",
+      "explanation": "La web especifica la convención de cada ejercicio y no intercambia BAI y BN.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 75,
+          "printedPage": "70",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-apalancamiento",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Cómo se descompone BAI/PN en margen, rotación y apalancamiento?",
+      "answer": "BAI/PN = (BAI/ventas) × (ventas/activo) × (activo/PN).",
+      "explanation": "No sustituyas BAI por BAII sin considerar el efecto de intereses.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 76,
+          "printedPage": "71",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-equilibrio",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Cómo se calcula el umbral de ventas sin pérdidas con costes variables proporcionales?",
+      "answer": "Ventas de equilibrio = costes fijos / (1 − costes variables/ventas), si el margen de contribución es positivo.",
+      "explanation": "Es una hipótesis simplificada; no funciona si costes variables absorben todo el ingreso.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 81,
+          "printedPage": "76",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-personal",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "¿Qué diferencia coste medio por asalariado de productividad por asalariado?",
+      "answer": "Coste medio = gastos de personal / número de asalariados. Productividad = valor añadido / número de asalariados.",
+      "explanation": "Mantén unidades y criterio de plantilla promedio coherentes.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 80,
+          "printedPage": "75",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caja-beneficio",
+      "concepts": [
+        "caja"
+      ],
+      "question": "¿Por qué beneficio contable y efectivo disponible pueden divergir?",
+      "answer": "Por ventas no cobradas, pagos diferidos, inversión en activos, amortizaciones y otras partidas sin movimiento inmediato de caja.",
+      "explanation": "Separa ingresos/gastos de cobros/pagos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 82,
+          "printedPage": "77",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-cf-economico",
+      "concepts": [
+        "caja"
+      ],
+      "question": "¿Qué aproximación usa el cash-flow económico o estático del tema?",
+      "answer": "Beneficio neto más amortizaciones, con los ajustes y exclusiones que especifique el enunciado.",
+      "explanation": "No es por sí solo el saldo de banco ni el flujo efectivo exacto.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 83,
+          "printedPage": "78",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-cf-financiero",
+      "concepts": [
+        "caja"
+      ],
+      "question": "¿Qué distingue cash-flow funcional, extrafuncional y puro?",
+      "answer": "Funcional: movimientos de explotación. Extrafuncional: movimientos ajenos a ella, como financiación e inversión. Puro: efecto neto conjunto en las disponibilidades.",
+      "explanation": "Calcula entradas menos salidas con un criterio de signo explícito.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 83,
+          "printedPage": "78",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-autofinanciacion",
+      "concepts": [
+        "caja"
+      ],
+      "question": "¿Cómo se conecta cash-flow económico con autofinanciación?",
+      "answer": "Autofinanciación = cash-flow económico − dividendos, en el modelo del tema.",
+      "explanation": "En algunos párrafos del libro aparece una suma de dividendos que contradice esta definición; aquí se usa la resta y se documenta.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 82,
+          "printedPage": "77",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-payout",
+      "concepts": [
+        "caja"
+      ],
+      "question": "¿Qué diferencia pay-out de rentabilidad por dividendo?",
+      "answer": "Pay-out = dividendos / resultado; rentabilidad por dividendo del esquema = dividendos / patrimonio neto.",
+      "explanation": "El denominador cambia el significado de la ratio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 85,
+          "printedPage": "80",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t3-caso-ratios",
+      "concepts": [
+        "liquidez"
+      ],
+      "title": "Liquidez sin disponibilidad",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una empresa tiene AC de 90.000 €, existencias de 60.000 €, disponible de 5.000 € y PC de 30.000 €.",
+      "change": "Se pide comprobar si la liquidez de 3 garantiza dinero para pagar de inmediato.",
+      "constants": "El realizable asciende a 25.000 €; no se conocen fechas de cobro.",
+      "prompts": {
+        "elastic": "¿Cuál es la prueba ácida del libro?",
+        "elongation": "¿Cuál es la ratio de disponibilidad?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "1",
+          "3",
+          "0,17"
+        ],
+        "elongation": [
+          "0,1667 aproximadamente",
+          "1",
+          "3"
+        ]
+      },
+      "solution": "Liquidez = 90.000/30.000 = 3. Acidez = (90.000−60.000)/30.000 = 1. Disponibilidad = 5.000/30.000 = 0,1667. Existe cobertura con realizable, pero la caja inmediata es reducida. La composición y las fechas de cobro importan.",
+      "criteria": [
+        "Excluyes existencias de la acidez.",
+        "Excluyes clientes de la disponibilidad.",
+        "No equiparas cobertura contable a pago inmediato."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 68,
+          "printedPage": "63",
+          "section": "Liquidez y fondo de maniobra"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-Ordinario-2023-24-Solucion-gulag-free.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Pregunta 58: contraste acidez–tesorería"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caso-fm",
+      "concepts": [
+        "liquidez"
+      ],
+      "title": "Convertir deuda a largo plazo",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una empresa tiene AC de 100.000 € y PC de 120.000 €.",
+      "change": "Reclasifica 40.000 € de deuda corriente a no corriente mediante un acuerdo de plazo.",
+      "constants": "No entra efectivo, no cambia el activo ni la deuda total.",
+      "prompts": {
+        "elastic": "¿Cuál es el nuevo fondo de maniobra?",
+        "elongation": "¿Qué ocurre con el endeudamiento deudas/PN?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "20.000 €",
+          "−20.000 €",
+          "60.000 €"
+        ],
+        "elongation": [
+          "No cambia",
+          "Disminuye necesariamente",
+          "Aumenta necesariamente"
+        ]
+      },
+      "solution": "PC pasa a 80.000 € y FM = 100.000−80.000 = 20.000 €. Mejoran los vencimientos a corto, pero no cambia deuda total ni PN; por tanto, deudas/PN permanece igual. No se ha creado caja.",
+      "criteria": [
+        "Calculas la nueva deuda corriente.",
+        "Separas vencimientos de deuda total.",
+        "Reconoces que la refinanciación no aumenta efectivo."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 69,
+          "printedPage": "64",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caso-maquina",
+      "concepts": [
+        "balance"
+      ],
+      "title": "Comprar inmovilizado al contado",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "El activo total es de 200.000 €, con 40.000 € en banco.",
+      "change": "Se compra una máquina por 25.000 € y se paga por banco.",
+      "constants": "Sin impuestos, gastos ni amortización en ese momento.",
+      "prompts": {
+        "elastic": "¿Qué ocurre con el activo total?",
+        "elongation": "¿Qué ocurre con el patrimonio neto?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Permanece en 200.000 €",
+          "Aumenta a 225.000 €",
+          "Disminuye a 175.000 €"
+        ],
+        "elongation": [
+          "No cambia",
+          "Sube 25.000 €",
+          "Baja 25.000 €"
+        ]
+      },
+      "solution": "Aumenta maquinaria en 25.000 € y baja banco en 25.000 €. Es una permuta: el activo total y el PN no cambian. La amortización posterior sí afectará al resultado, pero no se ha registrado aquí.",
+      "criteria": [
+        "Distingues inversión de gasto inmediato.",
+        "Mantienes A = PN + P.",
+        "Separas el momento de compra de la amortización."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Balance y partidas"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Pregunta 30"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caso-devengo",
+      "concepts": [
+        "cuentas"
+      ],
+      "title": "Venta pendiente de cobro",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una empresa presta un servicio de 12.000 € en diciembre.",
+      "change": "El cliente lo paga en febrero del año siguiente.",
+      "constants": "El servicio está completado y no se incluyen impuestos ni otros gastos.",
+      "prompts": {
+        "elastic": "¿En qué ejercicio se reconoce el ingreso?",
+        "elongation": "¿Qué partida aparece mientras no se cobra?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "En el de diciembre",
+          "En el de febrero",
+          "En ambos por duplicado"
+        ],
+        "elongation": [
+          "Clientes o derecho de cobro",
+          "Banco ya cobrado",
+          "Deuda con proveedor"
+        ]
+      },
+      "solution": "El ingreso corresponde al ejercicio de diciembre por devengo. Se reconoce un derecho de cobro; en febrero el cobro sustituye ese derecho por banco, sin reconocer de nuevo el ingreso.",
+      "criteria": [
+        "Aplicas devengo con independencia del cobro.",
+        "Clasificas el derecho como realizable.",
+        "Evitas duplicar el ingreso."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 51,
+          "printedPage": "46",
+          "section": "Cuentas y principios contables"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-Ordinario-2023-24-Solucion-gulag-free.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Pregunta 45"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caso-roe",
+      "concepts": [
+        "resultados"
+      ],
+      "title": "La convención del ROE",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "La empresa tiene PN de 500.000 €, BAI de 80.000 € e impuestos de 20.000 €.",
+      "change": "Se solicita la rentabilidad usando BAI/PN y, por separado, BN/PN.",
+      "constants": "Mismo patrimonio neto en ambas comparaciones.",
+      "prompts": {
+        "elastic": "¿Cuál es BAI/PN en porcentaje?",
+        "elongation": "¿Cuál es BN/PN en porcentaje?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "16%",
+          "12%",
+          "4%"
+        ],
+        "elongation": [
+          "12%",
+          "16%",
+          "20%"
+        ]
+      },
+      "solution": "BAI/PN = 80.000/500.000 = 16%. BN = 80.000−20.000 = 60.000 €; BN/PN = 12%. Ambas operaciones son válidas con sus convenciones, pero no se puede cambiar el numerador sin indicarlo.",
+      "criteria": [
+        "Calculas el beneficio neto tras impuestos.",
+        "Indicas qué resultado usa cada ratio.",
+        "No mezclas fórmulas del libro y de los exámenes."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 75,
+          "printedPage": "70",
+          "section": "Resultados y rentabilidad"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Pregunta 19: ROE con beneficio neto"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-caso-cashflow",
+      "concepts": [
+        "caja"
+      ],
+      "title": "Beneficio no es caja",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "En el ejercicio se obtiene BN de 30.000 € y amortización de 10.000 €.",
+      "change": "Se reparten 8.000 € de dividendos; 15.000 € de ventas siguen sin cobrar.",
+      "constants": "Se pide la aproximación económica del tema, no el flujo efectivo completo.",
+      "prompts": {
+        "elastic": "¿Cuál es el cash-flow económico simplificado?",
+        "elongation": "¿Cuál es la autofinanciación simplificada?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "40.000 €",
+          "30.000 €",
+          "25.000 €"
+        ],
+        "elongation": [
+          "32.000 €",
+          "48.000 €",
+          "22.000 €"
+        ]
+      },
+      "solution": "Cash-flow económico = 30.000+10.000 = 40.000 €. Autofinanciación = 40.000−8.000 = 32.000 €. No se afirma que haya 32.000 € en caja: para efectivo real hay que ajustar cobros, pagos, inversión y financiación.",
+      "criteria": [
+        "Añades la amortización como partida sin pago del periodo.",
+        "Restas dividendos de los recursos retenidos.",
+        "Distingues aproximación económica y tesorería real."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 82,
+          "printedPage": "77",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t3-test-devengo",
+      "concepts": [
+        "cuentas"
+      ],
+      "question": "Una venta ya realizada y pendiente de cobro genera…",
+      "options": [
+        "Ingreso y derecho de cobro",
+        "Cobro inmediato siempre",
+        "Sólo deuda",
+        "Un ingreso en el ejercicio del cobro"
+      ],
+      "correct": 0,
+      "explanation": "El devengo reconoce el ingreso cuando ocurre el hecho económico.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 51,
+          "printedPage": "46",
+          "section": "Cuentas y principios contables"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-Ordinario-2023-24-Solucion-gulag-free.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Pregunta 45"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-test-acidez",
+      "concepts": [
+        "liquidez"
+      ],
+      "question": "AC 80, existencias 30 y PC 40. Prueba ácida =",
+      "options": [
+        "2",
+        "0,75",
+        "1,25",
+        "0,5"
+      ],
+      "correct": 2,
+      "explanation": "(80−30)/40 = 1,25.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 68,
+          "printedPage": "63",
+          "section": "Liquidez y fondo de maniobra"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-test-pago-deuda",
+      "concepts": [
+        "balance"
+      ],
+      "question": "Pagar 10.000 € de deuda por banco, sin intereses, hace que…",
+      "options": [
+        "Suban activo y pasivo",
+        "Bajen activo y pasivo, PN igual",
+        "Baje sólo PN",
+        "No cambie ninguna partida"
+      ],
+      "correct": 1,
+      "explanation": "Baja banco y baja la obligación por el mismo importe.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 65,
+          "printedPage": "60",
+          "section": "Balance y partidas"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Pregunta 32"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-test-capitalizacion",
+      "concepts": [
+        "deuda"
+      ],
+      "question": "PN 60 y deudas 40. Ratio de capitalización =",
+      "options": [
+        "1,5",
+        "0,4",
+        "0,667",
+        "0,6"
+      ],
+      "correct": 3,
+      "explanation": "PN/(PN+deudas) = 60/100 = 0,6.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 71,
+          "printedPage": "66",
+          "section": "Endeudamiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-test-margen",
+      "concepts": [
+        "resultados"
+      ],
+      "question": "Margen operativo 10% y rotación 2: BAII/activo =",
+      "options": [
+        "20%",
+        "12%",
+        "5%",
+        "200%"
+      ],
+      "correct": 0,
+      "explanation": "0,10×2 = 0,20.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 76,
+          "printedPage": "71",
+          "section": "Resultados y rentabilidad"
+        }
+      ]
+    },
+    {
+      "id": "gep-t3-test-caja",
+      "concepts": [
+        "caja"
+      ],
+      "question": "BN 50, amortización 20 y dividendos 10: autofinanciación simplificada =",
+      "options": [
+        "80",
+        "60",
+        "40",
+        "70"
+      ],
+      "correct": 1,
+      "explanation": "50+20−10 = 60.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 82,
+          "printedPage": "77",
+          "section": "Cash-flow y autofinanciación"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t3-mapa",
+    "title": "Conexiones · Gestión económico-financiera de la empresa",
+    "edges": [
+      {
+        "concepts": [
+          "balance"
+        ],
+        "from": "Activo",
+        "relation": "se financia con",
+        "to": "Patrimonio neto + pasivo",
+        "group": "Balance y partidas",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 58,
+            "printedPage": "53",
+            "section": "Balance y partidas"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "cuentas"
+        ],
+        "from": "Devengo",
+        "relation": "separa",
+        "to": "Ingreso de cobro",
+        "group": "Cuentas y principios contables",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 51,
+            "printedPage": "46",
+            "section": "Cuentas y principios contables"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "contabilidad"
+        ],
+        "from": "Aumento de activo",
+        "relation": "se registra en",
+        "to": "Debe",
+        "group": "Asientos y regla de la T",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 65,
+            "printedPage": "60",
+            "section": "Asientos y regla de la T"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "liquidez"
+        ],
+        "from": "Fondo de maniobra",
+        "relation": "es igual a",
+        "to": "AC − PC",
+        "group": "Liquidez y fondo de maniobra",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 68,
+            "printedPage": "63",
+            "section": "Liquidez y fondo de maniobra"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "liquidez"
+        ],
+        "from": "Prueba ácida",
+        "relation": "excluye del activo corriente",
+        "to": "Existencias",
+        "group": "Liquidez y fondo de maniobra",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 68,
+            "printedPage": "63",
+            "section": "Liquidez y fondo de maniobra"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "deuda"
+        ],
+        "from": "Endeudamiento",
+        "relation": "divide",
+        "to": "Deudas entre patrimonio neto",
+        "group": "Endeudamiento",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 71,
+            "printedPage": "66",
+            "section": "Endeudamiento"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "resultados"
+        ],
+        "from": "BAII / activo",
+        "relation": "se descompone en",
+        "to": "Margen operativo × rotación",
+        "group": "Resultados y rentabilidad",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 76,
+            "printedPage": "71",
+            "section": "Resultados y rentabilidad"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "caja"
+        ],
+        "from": "Autofinanciación",
+        "relation": "resta al cash-flow económico",
+        "to": "Dividendos",
+        "group": "Cash-flow y autofinanciación",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 82,
+            "printedPage": "77",
+            "section": "Cash-flow y autofinanciación"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Patrimonio neto + pasivo",
+          "Sólo tesorería",
+          "Sólo beneficio neto"
+        ],
+        "answer": "Patrimonio neto + pasivo",
+        "hint": "Busca el origen de financiación completo."
+      },
+      "relation": {
+        "edgeIndex": 4,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "excluye del activo corriente",
+          "duplica",
+          "convierte instantáneamente en caja"
+        ],
+        "answer": "excluye del activo corriente",
+        "hint": "Son los activos que primero necesitan venderse."
+      }
+    },
+    "solution": "El balance recoge una situación; los resultados, un periodo; los flujos, entradas y salidas. Liquidez, endeudamiento y rentabilidad miden aspectos distintos. Explicitar numeradores y denominadores evita confundir ratios."
+  }
+}

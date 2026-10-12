@@ -1,0 +1,183 @@
+/* Estos colores se comparten en todas las actividades. */
+:root {
+  color-scheme: light;
+  --fondo: #edf4f2;
+  --papel: #fff;
+  --tinta: #173c36;
+  --secundario: #45566c;
+  --azul: #13695b;
+  --azul-suave: #e4f3ed;
+  --borde: #cbded6;
+  --peligro: #9b2530;
+  --foco: #ac6500;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--tinta); font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.6; }
+[hidden] { display: none !important; }
+a { color: var(--azul); text-underline-offset: .2em; }
+button, input, select, textarea { font: inherit; }
+button, summary, select, input, textarea, a, [tabindex]:not([tabindex="-1"]) { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid var(--foco); outline-offset: 4px; }
+button { font-weight: 650; background: var(--azul); color: white; border: 1px solid var(--azul); border-radius: .45rem; padding: .75rem 1.1rem; cursor: pointer; min-height: 2.75rem; line-height: 1.4; }
+button:hover { background: #0d5146; }
+button:disabled { cursor: default; opacity: .6; }
+button:disabled:hover { background: var(--azul); }
+select, input[type="file"], input[type="text"], textarea { width: 100%; min-width: 0; border: 1px solid var(--borde); background: var(--papel); color: var(--tinta); border-radius: .45rem; padding: .7rem .8rem; }
+select { min-height: 2.75rem; }
+textarea { resize: vertical; min-height: 7rem; line-height: 1.6; }
+input[type="checkbox"], input[type="radio"] { accent-color: var(--azul); width: 1.1rem; height: 1.1rem; flex: 0 0 auto; }
+h1, h2, h3 { overflow-wrap: anywhere; }
+h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2; margin: 0; }
+h2 { font-size: clamp(1.25rem, 2.6vw, 1.7rem); line-height: 1.45; margin: 0 0 1.6rem; }
+h3 { font-size: 1rem; line-height: 1.4; margin: 0 0 .5rem; }
+p { margin: .75rem 0; }
+
+.saltar { position: fixed; left: 1rem; top: -6rem; z-index: 10; background: var(--papel); color: var(--tinta); padding: .75rem 1rem; border-radius: .45rem; }
+.saltar:focus { top: 1rem; }
+.cabecera { background: var(--tinta); color: white; padding: 1.25rem max(1.25rem, calc((100% - 72rem) / 2)); display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.marca { display: flex; align-items: center; gap: .8rem; font-weight: 650; }
+.simbolo { display: grid; place-items: center; width: 2.8rem; height: 2.8rem; border: 1px solid #89a5cc; border-radius: .5rem; font-size: 1.25rem; }
+.etapa { color: #d2def0; font-size: .875rem; }
+main { width: min(100% - 2.5rem, 72rem); margin: 2.5rem auto; }
+.encabezado-tema { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; align-items: end; gap: 2rem; margin-bottom: 1.5rem; }
+.etiqueta { margin: 0 0 .6rem; font-size: .875rem; font-weight: 700; color: var(--azul); }
+.instruccion { color: var(--secundario); margin: .9rem 0 0; }
+.selectores { display: grid; gap: .4rem; }
+.selectores label { font-size: .875rem; font-weight: 650; }
+.selectores label:not(:first-child) { margin-top: .3rem; }
+.espacio-estudio { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: 2rem; align-items: start; }
+.actividad, .lateral { min-width: 0; }
+.pestanas { display: flex; gap: .4rem; padding: .3rem; background: #dfe8f3; border: 1px solid var(--borde); border-radius: .7rem; margin-bottom: 1rem; }
+.pestanas button { flex: 1; background: transparent; color: var(--secundario); border-color: transparent; }
+.pestanas button:hover { background: #ffffff80; }
+.pestanas button[aria-selected="true"] { background: var(--papel); color: var(--azul); border-color: var(--borde); box-shadow: 0 .15rem .4rem #173c360a; }
+.panel { border-radius: .8rem; }
+.tarjeta { background: var(--papel); padding: clamp(1.25rem, 3vw, 2.5rem); border: 1px solid var(--borde); border-top: 4px solid var(--azul); border-radius: .8rem; box-shadow: 0 .5rem 2rem #173c3608; }
+.tarjeta + .tarjeta { margin-top: 1rem; }
+.meta { display: flex; justify-content: space-between; gap: .75rem; align-items: center; flex-wrap: wrap; font-size: .875rem; color: var(--secundario); margin-bottom: 1.5rem; }
+.concepto { background: var(--azul-suave); color: var(--azul); padding: .25rem .75rem; border-radius: 2rem; font-weight: 600; }
+.nota { color: var(--secundario); font-size: .875rem; margin-top: 1.25rem; }
+.mensaje { min-height: 1.4rem; color: var(--azul); font-size: .875rem; margin: 0 0 1rem; }
+.mensaje:empty { min-height: 0; margin: 0; }
+.aviso { background: #fff5df; color: #634716; border: 1px solid #d6b76b; border-radius: .5rem; padding: .8rem 1rem; font-size: .875rem; }
+.acciones { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin: 1.1rem 0; }
+.acciones-verticales { align-items: stretch; flex-direction: column; }
+.boton-secundario { background: var(--papel); color: var(--azul); }
+.boton-secundario:hover { background: var(--azul-suave); }
+.boton-peligro { color: var(--peligro); background: var(--papel); border-color: #c69299; }
+.boton-peligro:hover { background: #fceef0; }
+.respuesta { border-left: 3px solid var(--azul); padding: .1rem 0 .1rem 1.2rem; margin: 1.5rem 0; }
+.respuesta h3 { color: var(--azul); font-size: .875rem; }
+.solucion { font-size: 1.2rem; font-weight: 600; margin: .5rem 0 1.2rem; }
+.valoraciones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin-top: 1rem; }
+.valoraciones button { min-width: 0; }
+.valoraciones small { display: block; font-weight: 400; font-size: .875rem; margin-top: .25rem; }
+.fuentes { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--borde); color: var(--secundario); font-size: .875rem; }
+summary { cursor: pointer; font-weight: 650; padding: .35rem 0; }
+.fuentes ul, .list { padding-left: 1.2rem; margin-bottom: 0; }
+.fuentes li + li, .list li + li { margin-top: .7rem; }
+.filtro { display: flex; align-items: center; gap: .6rem; margin: 0 0 1.2rem; color: var(--secundario); }
+.filtro label { display: flex; align-items: center; gap: .6rem; }
+.filtro select { width: auto; max-width: 100%; }
+
+/* Casos: primero el escenario, después la reflexión y la solución. */
+.situation { padding: 1rem 1.2rem; border: 1px solid var(--borde); border-radius: .6rem; background: #f4f7fb; margin-bottom: 1.3rem; }
+.situation p:first-child { margin-top: 0; }
+.situation p:last-child { margin-bottom: 0; }
+.caso-formulario { display: grid; gap: 1rem; margin-bottom: 1rem; }
+.selector-caso { display: grid; gap: .4rem; margin-bottom: 1rem; font-weight: 650; }
+.caso-formulario label { display: grid; gap: .45rem; font-weight: 600; }
+.caso-formulario textarea, .caso-formulario select { font-weight: 400; }
+.caso-formulario fieldset { border: 1px solid var(--borde); border-radius: .45rem; min-width: 0; padding: .8rem 1rem; }
+.caso-formulario legend { padding: 0 .25rem; font-weight: 600; }
+.criterios { display: grid; gap: .65rem; padding: 0; list-style: none; }
+.criterios label { display: flex; align-items: start; gap: .65rem; padding: .5rem 0; }
+.criterios input { margin-top: .3rem; }
+
+/* El mapa se lee como relaciones, sin depender del color o de una imagen. */
+.mapa-relaciones { display: grid; gap: .8rem; margin: 1.25rem 0; }
+.relacion { background: #f4f7fb; padding: .9rem; border: 1px solid var(--borde); border-radius: .6rem; }
+.cadena { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem .6rem; }
+.nodo { background: var(--papel); color: var(--tinta); border-color: #b5c7e0; padding: .5rem .75rem; min-height: 2.75rem; overflow-wrap: anywhere; text-align: left; }
+.nodo:hover { background: var(--azul-suave); }
+.conexion { color: var(--secundario); font-size: .875rem; }
+.cadena select { width: auto; max-width: 100%; }
+.pista { color: var(--secundario); background: #f4f7fb; border-radius: .45rem; padding: .7rem 1rem; }
+.resultado { color: var(--tinta); border-left: 3px solid var(--azul); padding-left: 1rem; margin-top: 1rem; }
+.accesos { border-top: 1px solid var(--borde); padding-top: 1rem; margin-top: 1.5rem; }
+.accesos .acciones { margin-bottom: 0; }
+
+.lateral { display: grid; gap: 1rem; }
+.resumen, .gestion { background: var(--papel); padding: 1.25rem; border: 1px solid var(--borde); border-radius: .7rem; }
+.resumen h2 { font-size: 1.1rem; margin-bottom: 1rem; }
+.estadisticas { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .6rem .7rem; margin: 0; font-size: .875rem; }
+.estadisticas dt { color: var(--secundario); }
+.estadisticas dd { margin: 0; text-align: right; font-weight: 700; }
+.estadisticas > div { display: contents; }
+.gestion { font-size: .875rem; }
+.gestion p { margin: .85rem 0; }
+.gestion .acciones { margin-bottom: 0; }
+.etiqueta-archivo { font-weight: 650; margin-bottom: -.4rem; }
+.gestion input[type="file"] { padding: .6rem; font-size: .875rem; }
+input[type="file"]::file-selector-button { background: var(--azul-suave); border: 1px solid var(--borde); color: var(--azul); border-radius: .3rem; padding: .45rem .6rem; margin: 0 .5rem .2rem 0; cursor: pointer; }
+.reglas { padding-left: 1.2rem; }
+.reglas li + li { margin-top: .7rem; }
+.alcance { margin: 0; padding: 0 .25rem; }
+footer { padding: 0 1.25rem 2rem; max-width: 72rem; margin: 0 auto; text-align: center; font-size: .875rem; color: var(--secundario); }
+dialog { border: 1px solid var(--borde); border-radius: .8rem; padding: 1.75rem; width: min(100% - 2rem, 30rem); color: var(--tinta); box-shadow: 0 1rem 4rem #173c3630; }
+dialog::backdrop { background: #173c3680; }
+dialog h2 { margin-bottom: 1rem; }
+dialog .acciones { margin-bottom: 0; }
+.enlace-descarga { display: inline-block; color: var(--azul); font-weight: 650; padding: .7rem 0; }
+.copia-texto { margin: 1rem 0; }
+#texto-copia { width: 100%; min-height: 8rem; font: .875rem/1.5 ui-monospace, monospace; margin-top: .5rem; }
+
+.bloque-mapa { margin-top: 1rem; border: 1px solid var(--borde); border-radius: .65rem; padding: .8rem; }
+.bloque-mapa > summary { cursor: pointer; font-weight: 650; color: var(--azul); padding: .3rem 0; }
+.bloque-mapa[open] > summary { margin-bottom: .8rem; }
+.bloque-mapa > .relacion + .relacion { margin-top: .75rem; }
+
+/* En pantallas pequeñas el progreso pasa debajo de la actividad. */
+@media (max-width: 850px) {
+  .encabezado-tema, .espacio-estudio { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .selectores { grid-template-columns: 1fr 1fr; }
+  .selectores label { grid-row: 1; }
+  .selectores label:not(:first-child) { margin-top: 0; }
+  .selectores select { grid-row: 2; }
+  .lateral { grid-template-columns: minmax(0, 1fr); }
+  .alcance { max-width: 45rem; }
+}
+@media (max-width: 480px) {
+  main { width: calc(100% - 1.5rem); margin: 1.5rem auto; }
+  .cabecera { padding: 1rem; gap: .6rem; }
+  .marca { font-size: .9rem; }
+  .etapa { margin-left: 3.6rem; }
+  .selectores { grid-template-columns: minmax(0, 1fr); }
+  .selectores label, .selectores select { grid-row: auto; }
+  .selectores label:not(:first-child) { margin-top: .4rem; }
+  .pestanas { gap: .2rem; }
+  .pestanas button { padding: .7rem .35rem; }
+  .tarjeta { padding: 1.1rem; }
+  button { min-height: 3rem; }
+  .acciones > button { width: 100%; }
+  .valoraciones { gap: .5rem; }
+  .valoraciones button { padding: .7rem .35rem; }
+  .respuesta { padding-left: .8rem; }
+  .nodo { max-width: 100%; }
+  .cadena select { width: 100%; }
+  dialog { padding: 1.25rem; }
+}
+/* El índice aprovecha los controles existentes y se adapta al ancho disponible. */
+.indice { margin-bottom: 1.4rem; }
+.entrada-indice { padding: .8rem 0; border-bottom: 1px solid #dce3eb; }
+.entrada-indice h2 { margin: 0; font-size: 1rem; }
+.entrada-indice .acciones { flex-wrap: wrap; }
+.guia-lectura { max-width: 850px; margin: auto; line-height: 1.65; }
+.guia-lectura section { margin-bottom: 2rem; }
+.guia-lectura pre { overflow-x: auto; padding: 1rem; background: #edf1f6; }
+
+.pregunta-test { margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--borde); border-radius: .6rem; min-width: 0; }
+.pregunta-test legend { font-weight: 700; padding: 0 .3rem; }
+.pregunta-test label { display: flex; align-items: baseline; gap: .5rem; margin: .6rem 0; font-weight: 400; cursor: pointer; }
+.pregunta-test input { width: auto; flex-shrink: 0; }

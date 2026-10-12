@@ -1,0 +1,789 @@
+{
+  "id": "gep-t4",
+  "number": 4,
+  "title": "Gestión de recursos humanos y del conocimiento",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "personas": "Personas y conocimiento",
+    "liderazgo": "Modelos de liderazgo",
+    "equipos": "Objetivos y equipos",
+    "comunicacion": "Comunicación y motivación",
+    "cambio": "Cambio e innovación"
+  },
+  "cards": [
+    {
+      "id": "gep-t4-rrhh",
+      "concepts": [
+        "personas"
+      ],
+      "question": "¿Qué conecta planificación de personas con gestión del conocimiento?",
+      "answer": "Adquirir, mantener y desarrollar talento; capturar, compartir y aplicar información y experiencia para mejorar la organización.",
+      "explanation": "El conocimiento necesita personas, procesos y oportunidades de aprendizaje.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 87,
+          "printedPage": "82",
+          "section": "Personas y conocimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-diversidad",
+      "concepts": [
+        "personas"
+      ],
+      "question": "¿Qué requiere gestionar un equipo multicultural?",
+      "answer": "Reconocer diferencias, evitar estereotipos y establecer prácticas de inclusión, comunicación y cooperación.",
+      "explanation": "La diversidad no garantiza por sí sola coordinación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 88,
+          "printedPage": "83",
+          "section": "Personas y conocimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-estilos",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "Compara liderazgo autocrático, democrático y laissez-faire.",
+      "answer": "El autocrático concentra decisiones; el democrático incorpora participación; el laissez-faire interviene poco y deja autonomía.",
+      "explanation": "El contexto y la preparación del equipo importan.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 89,
+          "printedPage": "84",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-otros-estilos",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Qué distingue al líder transformacional del burocrático?",
+      "answer": "El transformacional impulsa una visión y nuevas formas de trabajar; el burocrático se apoya en procedimientos y normas.",
+      "explanation": "Son descripciones de estilos, no etiquetas universales de eficacia.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 89,
+          "printedPage": "84",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-xy",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Qué representan las teorías X e Y de McGregor?",
+      "answer": "X presupone necesidad de control ante rechazo del trabajo; Y contempla autodirección, responsabilidad y desarrollo bajo condiciones adecuadas.",
+      "explanation": "Son supuestos de la dirección, no dos tipos inmutables de empleados.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 91,
+          "printedPage": "86",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-rejilla",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Qué dos ejes tiene la rejilla de Blake y Mouton?",
+      "answer": "Interés por la producción e interés por las personas, ambos de 1 a 9.",
+      "explanation": "(9,9) combina ambos altos; (1,1), ambos bajos; (9,1), producción; (1,9), personas; (5,5), compromiso intermedio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 92,
+          "printedPage": "87",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-fiedler",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Qué variables sitúan a un líder en el modelo de Fiedler?",
+      "answer": "Relación líder-miembros, estructura de la tarea y poder del puesto.",
+      "explanation": "El estilo orientado a tareas funciona mejor en extremos de control situacional; el orientado a relaciones, en situaciones intermedias del esquema.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 94,
+          "printedPage": "89",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-hersey",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Cómo conecta Hersey y Blanchard estilo y preparación del colaborador?",
+      "answer": "Adapta dirección y apoyo a competencia y disposición: dirigir, entrenar, apoyar o delegar.",
+      "explanation": "Delegar exige capacidad y responsabilidad suficientes, no ausencia de seguimiento.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 95,
+          "printedPage": "90",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-vroom",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "¿Qué decide el modelo de Vroom y Jago?",
+      "answer": "El grado de participación del equipo en la decisión, atendiendo a calidad, información y aceptación necesarias.",
+      "explanation": "No prescribe participación máxima en toda decisión.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 96,
+          "printedPage": "91",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-smart",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "¿Cómo conviertes «mejorar pronto» en un objetivo SMART?",
+      "answer": "Lo haces específico, medible, alcanzable, realista y con plazo: por ejemplo, reducir un indicador definido del 8% al 5% en tres meses, con recursos suficientes.",
+      "explanation": "Definir el objetivo no obliga a imponer cada paso del método.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 97,
+          "printedPage": "92",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-equipo",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "¿Qué diferencia un equipo de un conjunto de personas?",
+      "answer": "Objetivo común, habilidades complementarias, coordinación y responsabilidad compartida.",
+      "explanation": "La sinergia exige trabajo organizado, no sólo proximidad física.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 97,
+          "printedPage": "92",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-tipos",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "Distingue equipo de proyecto, virtual y círculo de calidad.",
+      "answer": "Proyecto: temporal, vinculado a una misión; virtual: colaboración a distancia; círculo de calidad: participación voluntaria para analizar mejoras.",
+      "explanation": "Un equipo puede combinar varias características.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 98,
+          "printedPage": "93",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-eficacia",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "¿Basta cumplir la producción para considerar eficaz un equipo?",
+      "answer": "No: también importan satisfacción de necesidades y capacidad o compromiso para cooperar en el futuro.",
+      "explanation": "El resultado inmediato no resume toda la eficacia.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 98,
+          "printedPage": "93",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-cohesion",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "¿Qué conecta normas, roles y cohesión con el rendimiento?",
+      "answer": "Las normas orientan conductas; los roles distribuyen contribuciones; la cohesión vincula al grupo.",
+      "explanation": "La holgazanería social reduce el esfuerzo individual cuando la responsabilidad se diluye.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 99,
+          "printedPage": "94",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-retribucion",
+      "concepts": [
+        "personas"
+      ],
+      "question": "¿Qué objetivos tiene una política retributiva?",
+      "answer": "Atraer, retener y motivar con equidad; valorar puestos mediante jerarquización, clasificación, puntos o comparación de factores.",
+      "explanation": "Valorar un puesto no equivale a valorar el desempeño de su ocupante.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 99,
+          "printedPage": "94",
+          "section": "Personas y conocimiento"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-comunicacion",
+      "concepts": [
+        "comunicacion"
+      ],
+      "question": "¿Cómo compruebas que una comunicación fue eficaz?",
+      "answer": "Con claridad, canal adecuado, escucha activa y retroalimentación que confirme comprensión.",
+      "explanation": "Enviar un mensaje no garantiza que se haya entendido.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 101,
+          "printedPage": "96",
+          "section": "Comunicación y motivación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-motivaciones",
+      "concepts": [
+        "comunicacion"
+      ],
+      "question": "Distingue motivación extrínseca, intrínseca y trascendente.",
+      "answer": "Extrínseca: recompensa externa; intrínseca: satisfacción de aprender o realizar la tarea; trascendente: contribución a otros o a un propósito compartido.",
+      "explanation": "Pueden coexistir en una misma acción.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 102,
+          "printedPage": "97",
+          "section": "Comunicación y motivación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-lewin",
+      "concepts": [
+        "cambio"
+      ],
+      "question": "¿Qué tres etapas propone Lewin para el cambio?",
+      "answer": "Descongelar, cambiar y recongelar o estabilizar.",
+      "explanation": "Su análisis de fuerzas identifica impulsores y resistencias.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 107,
+          "printedPage": "102",
+          "section": "Cambio e innovación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-kotter",
+      "concepts": [
+        "cambio"
+      ],
+      "question": "Reconstruye las ocho acciones de Kotter.",
+      "answer": "Urgencia, coalición, visión, comunicarla, facilitar la acción, logros a corto plazo, consolidar avances y anclar el cambio en la cultura.",
+      "explanation": "Los logros tempranos ayudan a sostener el proceso.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 107,
+          "printedPage": "102",
+          "section": "Cambio e innovación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-oceano",
+      "concepts": [
+        "cambio"
+      ],
+      "question": "¿Qué cuatro preguntas utiliza el océano azul?",
+      "answer": "Qué eliminar, reducir, incrementar y crear para ofrecer una propuesta de valor distinta.",
+      "explanation": "No consiste sólo en bajar precios dentro de la misma competencia.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 109,
+          "printedPage": "104",
+          "section": "Cambio e innovación"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t4-caso-delegar",
+      "concepts": [
+        "liderazgo"
+      ],
+      "title": "Un equipo experto",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Un equipo competente realiza una tarea conocida y acepta responsabilidad.",
+      "change": "La dirección decide el nivel de detalle de las instrucciones y apoyo.",
+      "constants": "Objetivo, recursos y criterios de seguimiento.",
+      "prompts": {
+        "elastic": "¿Qué estilo encaja con su preparación?",
+        "elongation": "¿Qué se debe conservar?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Delegar",
+          "Dirigir cada paso",
+          "Imponer instrucciones sin autonomía"
+        ],
+        "elongation": [
+          "Objetivos y seguimiento acordados",
+          "Ausencia total de responsabilidad",
+          "Control de cada movimiento"
+        ]
+      },
+      "solution": "Delegar permite autonomía a personas capaces y responsables, manteniendo objetivos y revisión de resultados. La preparación del colaborador orienta el estilo.",
+      "criteria": [
+        "Relacionas preparación con autonomía.",
+        "Distingues delegación de abandono."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 95,
+          "printedPage": "90",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-caso-motivacion",
+      "concepts": [
+        "comunicacion"
+      ],
+      "title": "Tres razones para participar",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una ingeniera recibe un incentivo por formar compañeros.",
+      "change": "Además disfruta enseñando y quiere mejorar la seguridad del equipo.",
+      "constants": "La misma actividad tiene varios motivos.",
+      "prompts": {
+        "elastic": "¿Qué tipo es el incentivo?",
+        "elongation": "¿Qué tipo es ayudar a otros?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Extrínseca",
+          "Intrínseca",
+          "Trascendente"
+        ],
+        "elongation": [
+          "Trascendente",
+          "Sólo extrínseca",
+          "Ninguna"
+        ]
+      },
+      "solution": "El incentivo es extrínseco; disfrutar enseñando es intrínseco; contribuir al bienestar del equipo es trascendente. No son categorías excluyentes para toda la conducta.",
+      "criteria": [
+        "Clasificas cada motivo, no a la persona.",
+        "Reconoces coexistencia."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 102,
+          "printedPage": "97",
+          "section": "Comunicación y motivación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-caso-cambio",
+      "concepts": [
+        "cambio"
+      ],
+      "title": "Mantener una mejora",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Tras un piloto exitoso, se implanta una nueva forma de trabajo.",
+      "change": "Se actualizan procedimientos y formación para sostenerla.",
+      "constants": "La mejora ya se ha probado.",
+      "prompts": {
+        "elastic": "¿Qué etapa de Lewin predomina?",
+        "elongation": "¿Qué evita retroceder?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "Recongelar o estabilizar",
+          "Descongelar",
+          "Identificar una necesidad inicial"
+        ],
+        "elongation": [
+          "Integrar la mejora en prácticas habituales",
+          "Sólo anunciarla",
+          "Eliminar todo seguimiento"
+        ]
+      },
+      "solution": "Se estabiliza el nuevo funcionamiento. Procedimientos, aprendizaje y seguimiento ayudan a que el cambio perdure.",
+      "criteria": [
+        "Sitúas la acción después de la implantación.",
+        "Conectas hábitos y mantenimiento."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 107,
+          "printedPage": "102",
+          "section": "Cambio e innovación"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t4-test-rejilla",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "En Blake y Mouton, (9,1) indica…",
+      "options": [
+        "Alto interés por producción y bajo por personas",
+        "Ambos altos",
+        "Ambos bajos",
+        "Baja producción y altas personas"
+      ],
+      "correct": 0,
+      "explanation": "El primer eje representa producción y el segundo personas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 92,
+          "printedPage": "87",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-test-xy",
+      "concepts": [
+        "liderazgo"
+      ],
+      "question": "Las teorías X e Y describen…",
+      "options": [
+        "Edad de empleados",
+        "Supuestos directivos sobre el trabajo",
+        "Salarios mínimos",
+        "Tipos de contrato"
+      ],
+      "correct": 1,
+      "explanation": "No clasifican de forma inmutable a las personas.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 91,
+          "printedPage": "86",
+          "section": "Modelos de liderazgo"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-test-smart",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "¿Qué objetivo permite comprobar su cumplimiento?",
+      "options": [
+        "Ser mejores",
+        "Trabajar bastante",
+        "Reducir defectos del 8% al 5% antes del 30 de junio",
+        "Innovar siempre"
+      ],
+      "correct": 2,
+      "explanation": "Tiene indicador, meta y plazo; además se debe comprobar viabilidad.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 97,
+          "printedPage": "92",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-test-intrinseca",
+      "concepts": [
+        "comunicacion"
+      ],
+      "question": "Aprender por satisfacción personal es motivación…",
+      "options": [
+        "Extrínseca",
+        "Trascendente exclusivamente",
+        "Burocrática",
+        "Intrínseca"
+      ],
+      "correct": 3,
+      "explanation": "La recompensa procede de la propia actividad.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 102,
+          "printedPage": "97",
+          "section": "Comunicación y motivación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-test-lewin",
+      "concepts": [
+        "cambio"
+      ],
+      "question": "Orden del cambio de Lewin:",
+      "options": [
+        "Descongelar, cambiar, estabilizar",
+        "Estabilizar, cambiar, descongelar",
+        "Cambiar, estabilizar, descongelar",
+        "Medir, despedir, contratar"
+      ],
+      "correct": 0,
+      "explanation": "Primero se prepara el cambio y después se consolida.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 107,
+          "printedPage": "102",
+          "section": "Cambio e innovación"
+        }
+      ]
+    },
+    {
+      "id": "gep-t4-test-equipo",
+      "concepts": [
+        "equipos"
+      ],
+      "question": "La eficacia del equipo incluye…",
+      "options": [
+        "Sólo producción",
+        "Resultado, satisfacción y cooperación futura",
+        "Sólo cohesión",
+        "Sólo número de reuniones"
+      ],
+      "correct": 1,
+      "explanation": "El libro contempla varios resultados complementarios.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 98,
+          "printedPage": "93",
+          "section": "Objetivos y equipos"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t4-mapa",
+    "title": "Conexiones · Gestión de recursos humanos y del conocimiento",
+    "edges": [
+      {
+        "concepts": [
+          "personas"
+        ],
+        "from": "Gestión de personas",
+        "relation": "desarrolla",
+        "to": "Talento",
+        "group": "Personas y conocimiento",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 87,
+            "printedPage": "82",
+            "section": "Personas y conocimiento"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "personas"
+        ],
+        "from": "Conocimiento",
+        "relation": "se aprovecha al",
+        "to": "Compartir y aplicar",
+        "group": "Personas y conocimiento",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 87,
+            "printedPage": "82",
+            "section": "Personas y conocimiento"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "liderazgo"
+        ],
+        "from": "Rejilla de liderazgo",
+        "relation": "combina",
+        "to": "Personas y producción",
+        "group": "Modelos de liderazgo",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 92,
+            "printedPage": "87",
+            "section": "Modelos de liderazgo"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "liderazgo"
+        ],
+        "from": "Liderazgo situacional",
+        "relation": "adapta el estilo a",
+        "to": "Preparación del colaborador",
+        "group": "Modelos de liderazgo",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 95,
+            "printedPage": "90",
+            "section": "Modelos de liderazgo"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "equipos"
+        ],
+        "from": "Equipo",
+        "relation": "coordina",
+        "to": "Habilidades complementarias",
+        "group": "Objetivos y equipos",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 97,
+            "printedPage": "92",
+            "section": "Objetivos y equipos"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "comunicacion"
+        ],
+        "from": "Retroalimentación",
+        "relation": "comprueba",
+        "to": "Comprensión",
+        "group": "Comunicación y motivación",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 101,
+            "printedPage": "96",
+            "section": "Comunicación y motivación"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "cambio"
+        ],
+        "from": "Lewin",
+        "relation": "culmina con",
+        "to": "Estabilizar el cambio",
+        "group": "Cambio e innovación",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 107,
+            "printedPage": "102",
+            "section": "Cambio e innovación"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "cambio"
+        ],
+        "from": "Océano azul",
+        "relation": "replantea",
+        "to": "Propuesta de valor",
+        "group": "Cambio e innovación",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 109,
+            "printedPage": "104",
+            "section": "Cambio e innovación"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 3,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Preparación del colaborador",
+          "Sólo antigüedad",
+          "Sólo tamaño de empresa"
+        ],
+        "answer": "Preparación del colaborador",
+        "hint": "Considera capacidad y disposición."
+      },
+      "relation": {
+        "edgeIndex": 5,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "comprueba",
+          "impide",
+          "sustituye siempre"
+        ],
+        "answer": "comprueba",
+        "hint": "No basta enviar el mensaje."
+      }
+    },
+    "solution": "Personas, liderazgo y comunicación conectan objetivos con cooperación. El cambio necesita implantación y continuidad."
+  }
+}

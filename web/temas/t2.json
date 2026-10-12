@@ -1,0 +1,1005 @@
+{
+  "id": "gep-t2",
+  "number": 2,
+  "title": "Financiación de empresas y sistema financiero",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "sistema": "Sistema e intermediarios",
+    "activos": "Activos y mercados",
+    "acciones": "Acciones y valor",
+    "capital": "Operaciones de capital",
+    "prestamos": "Préstamos y amortización"
+  },
+  "cards": [
+    {
+      "id": "gep-t2-ahorro",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué función conecta unidades con superávit y unidades con déficit?",
+      "answer": "El sistema financiero canaliza el ahorro de las unidades con excedentes hacia las que necesitan recursos.",
+      "explanation": "Intervienen instituciones, mediadores y mercados.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 35,
+          "printedPage": "30",
+          "section": "Sistema e intermediarios"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-eficiencia",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué tres condiciones mejoran la eficiencia del sistema financiero según el libro?",
+      "answer": "Más recursos hacia inversión productiva, mejor adaptación a preferencias individuales y mejor calidad de asignación de recursos.",
+      "explanation": "No basta con aumentar el volumen de negociación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 36,
+          "printedPage": "31",
+          "section": "Sistema e intermediarios"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-intermediacion",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Por qué aparece la intermediación financiera?",
+      "answer": "Porque cantidades, plazos o rentabilidades que ofrecen ahorradores no coinciden con los que necesitan prestatarios; el intermediario transforma activos.",
+      "explanation": "Distingue transformación financiera de simple mediación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 36,
+          "printedPage": "31",
+          "section": "Sistema e intermediarios"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-broker-dealer",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Quién asume el riesgo de precio: broker o dealer?",
+      "answer": "El broker actúa por cuenta ajena y traslada el riesgo al cliente; el dealer puede operar por cuenta propia y asumir el riesgo de variación del precio.",
+      "explanation": "La diferencia no es sólo cobrar comisión o comprar acciones.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 36,
+          "printedPage": "31",
+          "section": "Sistema e intermediarios"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-market-maker",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué distingue a un market maker?",
+      "answer": "Es un negociador especializado que cotiza en firme precios de compra y venta.",
+      "explanation": "Su actividad facilita la negociación del activo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 37,
+          "printedPage": "32",
+          "section": "Sistema e intermediarios"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-activo-pasivo",
+      "concepts": [
+        "activos"
+      ],
+      "question": "¿Cómo puede un mismo instrumento ser activo y pasivo?",
+      "answer": "Es activo financiero para su tenedor y representa financiación u obligación para el emisor, según el instrumento.",
+      "explanation": "Depende de la perspectiva desde la que se observa.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 37,
+          "printedPage": "32",
+          "section": "Activos y mercados"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-mercados",
+      "concepts": [
+        "activos"
+      ],
+      "question": "¿Qué distingue mercado primario de secundario?",
+      "answer": "El primario corresponde a emisión; el secundario a negociación de activos ya emitidos.",
+      "explanation": "No confundas esta distinción con instrumentos primarios y derivados.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 37,
+          "printedPage": "32",
+          "section": "Activos y mercados"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-monetario-capitales",
+      "concepts": [
+        "activos"
+      ],
+      "question": "¿Qué criterio separa mercados monetarios y de capitales?",
+      "answer": "Las características de los activos negociados.",
+      "explanation": "El libro añade clasificaciones por fase de negociación y organización del mercado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 37,
+          "printedPage": "32",
+          "section": "Activos y mercados"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-accion",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Qué representa una acción?",
+      "answer": "Una parte proporcional del capital social de una sociedad anónima.",
+      "explanation": "No representa un préstamo como una obligación.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 38,
+          "printedPage": "33",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-nominal-contable",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Cómo se calculan valor nominal y contable por acción?",
+      "answer": "Nominal = capital social / número de acciones. Contable = patrimonio neto / número de acciones; en el ejemplo simplificado, patrimonio neto = capital social + reservas.",
+      "explanation": "Ninguno es necesariamente la cotización.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 39,
+          "printedPage": "34",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-valoracion",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿En qué se distinguen valor de mercado, de liquidación e intrínseco?",
+      "answer": "Mercado: precio de negociación; liquidación: valor en el escenario de liquidar; intrínseco: valoración basada en los flujos futuros esperados.",
+      "explanation": "Especifica siempre qué concepto de valor usa el enunciado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 39,
+          "printedPage": "34",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-emision",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Qué relación hay entre valor de emisión, nominal y prima?",
+      "answer": "Valor de emisión = valor nominal + prima de emisión.",
+      "explanation": "La prima no aumenta el nominal de cada acción.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 39,
+          "printedPage": "34",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-tipos",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Qué diferencia hay entre acciones suscritas y desembolsadas?",
+      "answer": "Suscritas son las adquiridas o comprometidas por inversores; desembolsadas son aquellas cuya aportación se ha realizado.",
+      "explanation": "Son criterios de situación, no de precio.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 40,
+          "printedPage": "35",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-colocacion",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Qué contrapone el libro en colocación privada y pública?",
+      "answer": "La privada se dirige a un grupo concreto y facilita acuerdos; la pública se dirige al público general y exige información e intervención especializada.",
+      "explanation": "El libro señala menor liquidez y mayor opacidad como contrapartidas de la privada.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 41,
+          "printedPage": "36",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-riesgo-emision",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "¿Quién soporta el riesgo de no colocar la emisión a comisión y en firme?",
+      "answer": "A comisión, el emisor soporta el riesgo de no vender todo; en firme, el especialista suscribe la emisión y asume ese riesgo.",
+      "explanation": "En un acuerdo stand by, compra lo que no logra colocar tras la mediación inicial.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 41,
+          "printedPage": "36",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-capital-deuda",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Qué cambia entre ampliar capital y emitir obligaciones?",
+      "answer": "La ampliación incorpora recursos de socios mediante capital; las obligaciones representan títulos de deuda con un plan de devolución.",
+      "explanation": "No confundas recursos propios y ajenos.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 42,
+          "printedPage": "37",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-acordeon",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Qué es una operación acordeón?",
+      "answer": "Una reducción de capital para sanear seguida o acompañada de una ampliación de capital.",
+      "explanation": "Combina las dos operaciones, no es un simple split.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 42,
+          "printedPage": "37",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-split",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Un split crea por sí solo nuevo patrimonio neto?",
+      "answer": "No. Aumenta el número de acciones y reduce el nominal por acción, conservando el capital social si sólo se modifica esa proporción.",
+      "explanation": "Un contra-split realiza el movimiento contrario.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 42,
+          "printedPage": "37",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-ampliacion",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Cómo se obtiene el valor contable por acción tras una ampliación simplificada?",
+      "answer": "Vposterior = (PNanterior + número de acciones nuevas × precio de emisión) / número total de acciones tras la ampliación.",
+      "explanation": "Incluye el dinero aportado, no sólo el nuevo nominal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 43,
+          "printedPage": "38",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-derecho",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Cómo se calcula el derecho de suscripción en el modelo del libro?",
+      "answer": "Como diferencia entre el valor teórico o contable por acción antes y después de la ampliación.",
+      "explanation": "Se usa el valor de partida indicado en el enunciado, no una cotización inventada.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 43,
+          "printedPage": "38",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-proporcion",
+      "concepts": [
+        "capital"
+      ],
+      "question": "¿Cómo se mantiene la participación de un accionista en una ampliación proporcional?",
+      "answer": "Suscribiendo acciones nuevas en la misma proporción que su participación anterior: acciones antiguas propias × nuevas totales / antiguas totales.",
+      "explanation": "Un derecho permite compensar el efecto de dilución en el modelo simplificado.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 43,
+          "printedPage": "38",
+          "section": "Operaciones de capital"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-simple",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Qué unidades hay que compatibilizar en interés simple?",
+      "answer": "I = C × r × t / 100 cuando r se expresa en porcentaje; t debe usar el periodo al que se refiere r.",
+      "explanation": "Con r decimal, I = C × r × t.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 44,
+          "printedPage": "39",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-compuesto",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Cómo se calcula el capital final con pago único e interés compuesto?",
+      "answer": "Cf = C0 × (1 + i)^n, con i decimal por periodo y n número de esos periodos.",
+      "explanation": "El interés total es Cf − C0.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-frances",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Qué se mantiene constante en el método francés?",
+      "answer": "La cuota periódica total. Con tipo constante y pagos al final de cada periodo, el interés disminuye y la parte que amortiza capital aumenta.",
+      "explanation": "No se mantiene constante la amortización de principal.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-cuota",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Cuál es la fórmula de la cuota constante francesa?",
+      "answer": "a = C × i × (1+i)^n / ((1+i)^n − 1).",
+      "explanation": "i debe ser el tipo por periodo de pago; n, el número de pagos. Si i = 0, a = C/n.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-tabla",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Cómo se actualiza una fila de una tabla de amortización?",
+      "answer": "Interés = saldo inicial × i; amortización de principal = cuota − interés; saldo final = saldo inicial − amortización.",
+      "explanation": "Redondea de forma coherente y ajusta la última cuota sólo por redondeo.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 46,
+          "printedPage": "41",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-mensual",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Qué datos se necesitan para pasar de pagos anuales a mensuales?",
+      "answer": "La convención del tipo y el número de pagos. Un nominal anual convertible mensualmente da i mensual = j/12; un efectivo anual da i mensual = (1+ie)^(1/12) − 1.",
+      "explanation": "No dividas cualquier tipo anual por 12 sin conocer su convención.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-comparar-prestamos",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "¿Por qué no basta comparar dos préstamos por el total nominal de sus pagos?",
+      "answer": "También importa cuándo se paga y qué saldo genera intereses en cada periodo.",
+      "explanation": "El método francés reduce antes el saldo; el pago único conserva el capital hasta el vencimiento.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 46,
+          "printedPage": "41",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "gep-t2-caso-derechos",
+      "concepts": [
+        "capital"
+      ],
+      "title": "Ampliación con prima",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Una empresa tiene 1.000 acciones, capital social de 100.000 € y reservas de 20.000 €.",
+      "change": "Emite 200 acciones a 110 €; un socio posee 50 antiguas.",
+      "constants": "Sin costes de emisión ni cambios adicionales de patrimonio.",
+      "prompts": {
+        "elastic": "¿Cuál es el derecho teórico por acción antigua?",
+        "elongation": "¿Cuántas nuevas corresponden proporcionalmente al socio?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "1,67 €",
+          "10 €",
+          "0 €"
+        ],
+        "elongation": [
+          "10 acciones",
+          "50 acciones",
+          "200 acciones"
+        ]
+      },
+      "solution": "Antes: (100.000+20.000)/1.000 = 120 €/acción. Después: (120.000+200×110)/1.200 = 118,3333 €/acción. Derecho: 1,6667 €, aproximadamente 1,67 €. El socio conserva su 5% con 50×200/1.000 = 10 nuevas.",
+      "criteria": [
+        "Incluyes todo el precio de emisión en el patrimonio posterior.",
+        "Calculas el derecho como diferencia de valores.",
+        "Mantienes la participación mediante la proporción de acciones."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 43,
+          "printedPage": "38",
+          "section": "Operaciones de capital"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Pregunta 20: cálculo de derecho de suscripción"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-caso-frances",
+      "concepts": [
+        "prestamos"
+      ],
+      "title": "La primera cuota de un préstamo francés",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Se prestan 10.000 € a un 10% efectivo anual.",
+      "change": "Se devuelve en dos cuotas anuales iguales al final de cada año.",
+      "constants": "Tipo constante, sin comisiones.",
+      "prompts": {
+        "elastic": "¿Cuál es la cuota anual aproximada?",
+        "elongation": "¿Qué principal amortiza la primera cuota?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "5.761,90 €",
+          "5.000 €",
+          "6.000 €"
+        ],
+        "elongation": [
+          "4.761,90 €",
+          "5.761,90 €",
+          "1.000 €"
+        ]
+      },
+      "solution": "a = 10.000×0,10×1,1²/(1,1²−1) = 5.761,9048 €. Interés primero = 1.000 €; principal primero = 4.761,9048 €; saldo restante = 5.238,0952 €. El segundo interés baja a 523,8095 €.",
+      "criteria": [
+        "Distingues cuota total de principal amortizado.",
+        "Usas interés sobre saldo pendiente.",
+        "Compruebas el saldo tras el primer pago."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Preguntas 22–23: amortización francesa"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-caso-split",
+      "concepts": [
+        "capital"
+      ],
+      "title": "Desdoblar las acciones",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "La empresa tiene capital social de 60.000 € dividido en 6.000 acciones.",
+      "change": "Hace un split de dos acciones nuevas por cada antigua.",
+      "constants": "No entran nuevos fondos ni se reparten reservas.",
+      "prompts": {
+        "elastic": "¿Cuál será el nominal de cada acción?",
+        "elongation": "¿Qué ocurre con el capital social?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "5 €",
+          "10 €",
+          "20 €"
+        ],
+        "elongation": [
+          "Permanece en 60.000 €",
+          "Sube a 120.000 €",
+          "Baja a 30.000 €"
+        ]
+      },
+      "solution": "El número pasa a 12.000 y el nominal a 60.000/12.000 = 5 €. El split cambia la unidad de división, no crea recursos: el capital permanece en 60.000 €.",
+      "criteria": [
+        "Conservas capital social y proporción del socio.",
+        "No confundes split con ampliación."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 42,
+          "printedPage": "37",
+          "section": "Operaciones de capital"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Pregunta 46"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-caso-simple-compuesto",
+      "concepts": [
+        "prestamos"
+      ],
+      "title": "El plazo importa",
+      "kind": "Caso de elaboración propia · Predice y justifica",
+      "initial": "Se invierten 5.000 € al 8% anual durante dos años.",
+      "change": "Se compara interés simple con capitalización anual compuesta.",
+      "constants": "Mismo capital inicial, tipo anual y plazo.",
+      "prompts": {
+        "elastic": "¿Cuál será el capital final con interés simple?",
+        "elongation": "¿Cuál será el capital final con interés compuesto?",
+        "reason": "Justifica las dos respuestas. Incluye el cálculo cuando corresponda."
+      },
+      "predictionOptions": {
+        "elastic": [
+          "5.800 €",
+          "5.832 €",
+          "5.400 €"
+        ],
+        "elongation": [
+          "5.832 €",
+          "5.800 €",
+          "6.000 €"
+        ]
+      },
+      "solution": "Simple: I = 5.000×0,08×2 = 800 €; final 5.800 €. Compuesto: 5.000×1,08² = 5.832 €. Los 32 € adicionales provienen de capitalizar el interés del primer año.",
+      "criteria": [
+        "Compatibilizas tipo anual y dos años.",
+        "Distingues intereses de capital final.",
+        "Explicas el interés sobre intereses."
+      ],
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 44,
+          "printedPage": "39",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "gep-t2-test-broker",
+      "concepts": [
+        "sistema"
+      ],
+      "question": "¿Qué afirmación distingue a un broker?",
+      "options": [
+        "Siempre opera con su propia cartera",
+        "Actúa por cuenta ajena",
+        "Garantiza beneficio al cliente",
+        "Es el emisor de todas las acciones"
+      ],
+      "correct": 1,
+      "explanation": "El broker media por cuenta ajena; el dealer puede operar por cuenta propia.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 36,
+          "printedPage": "31",
+          "section": "Sistema e intermediarios"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Pregunta 50"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-test-nominal",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "Capital social de 60.000 € y 3.000 acciones: ¿valor nominal?",
+      "options": [
+        "20 €",
+        "30 €",
+        "50 €",
+        "No se puede calcular sin cotización"
+      ],
+      "correct": 0,
+      "explanation": "VN = 60.000 / 3.000 = 20 €/acción.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 39,
+          "printedPage": "34",
+          "section": "Acciones y valor"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Pregunta 4"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-test-firme",
+      "concepts": [
+        "acciones"
+      ],
+      "question": "En una colocación en firme, el riesgo de no revender la emisión lo asume…",
+      "options": [
+        "El cliente minorista siempre",
+        "La empresa emisora siempre",
+        "El especialista que la suscribe",
+        "Nadie"
+      ],
+      "correct": 2,
+      "explanation": "El especialista suscribe la emisión para colocarla después.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 41,
+          "printedPage": "36",
+          "section": "Acciones y valor"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-test-frances",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "Con cuota francesa y tipo positivo constante, a lo largo del préstamo…",
+      "options": [
+        "Intereses crecientes y principal decreciente",
+        "Ambas partes constantes",
+        "Intereses constantes y cuota creciente",
+        "Intereses decrecientes y principal creciente"
+      ],
+      "correct": 3,
+      "explanation": "La cuota es constante; el saldo disminuye y con él el interés.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 45,
+          "printedPage": "40",
+          "section": "Préstamos y amortización"
+        },
+        {
+          "document": "materiales/Examenes/wuolah-free-PEI-2024-25-Enunciado-gulag-free.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Pregunta 45"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-test-simple",
+      "concepts": [
+        "prestamos"
+      ],
+      "question": "Interés simple de 2.000 € al 6% anual durante medio año:",
+      "options": [
+        "120 €",
+        "60 €",
+        "240 €",
+        "6 €"
+      ],
+      "correct": 1,
+      "explanation": "I = 2.000×0,06×0,5 = 60 €.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 44,
+          "printedPage": "39",
+          "section": "Préstamos y amortización"
+        }
+      ]
+    },
+    {
+      "id": "gep-t2-test-derecho",
+      "concepts": [
+        "capital"
+      ],
+      "question": "Si el valor teórico pasa de 120 a 118,33 €/acción, el derecho teórico es…",
+      "options": [
+        "1,67 €/acción",
+        "118,33 €/acción",
+        "120 €/acción",
+        "238,33 €/acción"
+      ],
+      "correct": 0,
+      "explanation": "Se resta valor posterior al anterior.",
+      "sources": [
+        {
+          "document": "materiales/Libro GEP.pdf",
+          "pdfPage": 43,
+          "printedPage": "38",
+          "section": "Operaciones de capital"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "gep-t2-mapa",
+    "title": "Conexiones · Financiación de empresas y sistema financiero",
+    "edges": [
+      {
+        "concepts": [
+          "sistema"
+        ],
+        "from": "Ahorro de unidades con superávit",
+        "relation": "se canaliza hacia",
+        "to": "Unidades con déficit",
+        "group": "Sistema e intermediarios",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 35,
+            "printedPage": "30",
+            "section": "Sistema e intermediarios"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "sistema"
+        ],
+        "from": "Broker",
+        "relation": "opera por",
+        "to": "Cuenta ajena",
+        "group": "Sistema e intermediarios",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 36,
+            "printedPage": "31",
+            "section": "Sistema e intermediarios"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "activos"
+        ],
+        "from": "Mercado primario",
+        "relation": "corresponde a",
+        "to": "Emisión",
+        "group": "Activos y mercados",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 37,
+            "printedPage": "32",
+            "section": "Activos y mercados"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "acciones"
+        ],
+        "from": "Valor nominal",
+        "relation": "se calcula como",
+        "to": "Capital social / número de acciones",
+        "group": "Acciones y valor",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 39,
+            "printedPage": "34",
+            "section": "Acciones y valor"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "capital"
+        ],
+        "from": "Split",
+        "relation": "conserva",
+        "to": "Capital social",
+        "group": "Operaciones de capital",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 42,
+            "printedPage": "37",
+            "section": "Operaciones de capital"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "capital"
+        ],
+        "from": "Derecho de suscripción",
+        "relation": "compensa en el modelo",
+        "to": "Dilución de valor por acción",
+        "group": "Operaciones de capital",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 43,
+            "printedPage": "38",
+            "section": "Operaciones de capital"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "prestamos"
+        ],
+        "from": "Cuota francesa",
+        "relation": "se descompone en",
+        "to": "Interés + principal amortizado",
+        "group": "Préstamos y amortización",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 46,
+            "printedPage": "41",
+            "section": "Préstamos y amortización"
+          }
+        ]
+      },
+      {
+        "concepts": [
+          "prestamos"
+        ],
+        "from": "Interés por periodo",
+        "relation": "depende del",
+        "to": "Saldo pendiente",
+        "group": "Préstamos y amortización",
+        "sources": [
+          {
+            "document": "materiales/Libro GEP.pdf",
+            "pdfPage": 46,
+            "printedPage": "41",
+            "section": "Préstamos y amortización"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 2,
+        "target": "to",
+        "question": "Completa el concepto de destino",
+        "options": [
+          "Emisión",
+          "Cobro de impuestos",
+          "Sólo reventa"
+        ],
+        "answer": "Emisión",
+        "hint": "Es la primera colocación de la emisión."
+      },
+      "relation": {
+        "edgeIndex": 4,
+        "target": "relation",
+        "question": "Completa la relación",
+        "options": [
+          "conserva",
+          "duplica necesariamente",
+          "elimina"
+        ],
+        "answer": "conserva",
+        "hint": "Cambian número de títulos y nominal en proporción inversa."
+      }
+    },
+    "solution": "El sistema conecta ahorro y financiación. Las acciones representan capital; los préstamos y obligaciones representan deuda. El calendario de pagos determina el saldo sobre el que se calcula el interés."
+  }
+}

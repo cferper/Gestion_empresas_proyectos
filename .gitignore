@@ -1,0 +1,18 @@
+# Dependencias opcionales y cachés
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Archivos auxiliares y paquetes de distribución
+/tmp/
+*.zip
+*.log
+*-progreso-*.json
+.DS_Store
+Thumbs.db
+# PDF de consulta: presentes localmente, no necesarios para ejecutar la web
+/Aleaciones/
+/materiales/
+# La web estática compilada se conserva en Git
+!web/dist/
